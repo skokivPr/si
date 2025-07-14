@@ -1160,7 +1160,6 @@ label {
     font-weight: bold;
     text-shadow: 0 0.5px 1.5px currentColor;
     z-index: 9999;
-    background: var(--nav-bg);
     padding: var(--spacing-md);
     border-radius: var(--border-radius);
 }
