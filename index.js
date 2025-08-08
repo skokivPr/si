@@ -1,3 +1,4 @@
+//
 const carrdLinks = [
     // === KOLUMNA 1: EDYTORY I KOD ===
     // Row 1
@@ -1905,3 +1906,4 @@ function closeErrorModal() {
         }, 300);
     }
 }
+
