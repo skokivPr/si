@@ -4,8 +4,8 @@ const carrdLinks = [
     // Row 1
     {
         id: "gemiapi",
-        title: "GEMIAPI",
-        url: "https://gemiapi.carrd.co/",
+        title: "BOOK-V",
+        url: "https://boodev.carrd.co/",
         icon: "fas fa-gem",
         iconClass: "icon-gemiapi",
         category: "code",
@@ -150,8 +150,8 @@ const carrdLinks = [
     },
     {
         id: "logowanie",
-        title: "LOGOWANIE",
-        url: "https://logowanie.carrd.co/",
+        title: "METEO",
+        url: "https://appmeteo.carrd.co/",
         icon: "fas fa-sign-in-alt",
         iconClass: "icon-login",
         category: "tools",
@@ -220,8 +220,8 @@ const carrdLinks = [
     },
     {
         id: "project-dev",
-        title: "PROJECT DEV",
-        url: "https://projectdev.carrd.co/",
+        title: "VS EDITOR",
+        url: "https://vseditor.carrd.co/",
         icon: "fas fa-project-diagram",
         iconClass: "icon-project",
         category: "tools",
@@ -241,8 +241,8 @@ const carrdLinks = [
     },
     {
         id: "task-day",
-        title: "TASK DAY",
-        url: "https://taskday.carrd.co/",
+        title: "EXD 9",
+        url: "https://exd9.carrd.co/",
         icon: "fas fa-tasks",
         iconClass: "icon-task",
         category: "tools",
@@ -273,8 +273,8 @@ const carrdLinks = [
 const extraTools = [
     {
         id: "in-csv-dev",
-        title: "IN CSV DEV",
-        url: "https://incsvdev.carrd.co/",
+        title: "Csv-3.1.F",
+        url: "https://upcsv.carrd.co/",
         icon: "fas fa-file-csv",
         iconClass: "icon-csv",
         category: "data",
@@ -300,8 +300,8 @@ const extraTools = [
     },
     {
         id: "text-img",
-        title: "TABLE ORG",
-        url: "https://tableorg.carrd.co/",
+        title: "S-CSV-2.0.F",
+        url: "https://incsvdev.carrd.co/",
         icon: "fas fa-table",
         iconClass: "icon-table",
         category: "tools",
@@ -1906,4 +1906,5 @@ function closeErrorModal() {
         }, 300);
     }
 }
+
 
