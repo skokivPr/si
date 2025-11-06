@@ -213,7 +213,7 @@ a:hover {
 /* --- CONTENT SECTION --- */
 .content-section {
     display: none;
-    padding: var(--spacing-lg);
+    padding: 0.5rem;
     border: 1px solid #7474742b;
     background-color: var(--bg-secondary);
     backdrop-filter: blur(10px);
@@ -806,13 +806,12 @@ a:hover {
     background: var(--bg-tertiary);
     border: 1px solid transparent;
     border-radius: var(--border-radius);
-    padding: var(--spacing-md);
+    padding: 0.5rem;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-
 }
 
 .card:hover {
@@ -899,13 +898,12 @@ a:hover {
 .card-icon {
     font-size: 24px;
     color: var(--text-secondary);
-    margin-bottom: var(--spacing-sm);
     background: var(--bg-primary);
     border-bottom: 1px solid #7474742b;
-    border-radius: var(--border-radius);
-    padding: var(--spacing-sm) var(--spacing-md);
-    height: 40px;
-    width: 40px;
+    border-radius: 10px;
+    padding: 0.2rem;
+    height: 50px;
+    width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -913,7 +911,6 @@ a:hover {
 
 .card h3 {
     font-size: 1.2em;
-    margin-bottom: var(--spacing-sm);
     color: var(--text-secondary);
 }
 
@@ -921,7 +918,6 @@ a:hover {
     font-size: 0.9em;
     color: var(--accent-color-dark);
     flex-grow: 1;
-    margin-bottom: var(--spacing-md);
 }
 
 .card-buttons {
@@ -2528,3 +2524,4 @@ pre code {
     color: red !important;
     background: rgba(255, 0, 0, 0.117) !important;
 }
+
