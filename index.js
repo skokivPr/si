@@ -2,347 +2,347 @@
 const carrdLinks = [
     // === KOLUMNA 1: EDYTORY I KOD ===
     // Row 1
-   {
-                id: "md-code",
-                title: "MD CODE",
-                url: "https://mdcode.carrd.co/",
-                icon: "fas fa-file-code",
-                iconClass: "icon-md",
-                category: "code",
-                subcategory: "markdown",
-            },
+    {
+        id: "md-code",
+        title: "MD CODE",
+        url: "https://mdcode.carrd.co/",
+        icon: "fas fa-file-code",
+        iconClass: "icon-md",
+        category: "code",
+        subcategory: "markdown",
+    },
 
-            // Row 2
-            {
-                id: "edytor",
-                title: "EDYTOR",
-                url: "https://edytortxt.carrd.co/",
-                icon: "fas fa-edit",
-                iconClass: "icon-editor",
-                category: "editors",
-                subcategory: "text",
-            },
-            {
-                id: "edytor-alt",
-                title: "EDYTOR",
-                url: "https://edytor.carrd.co/",
-                icon: "fas fa-edit",
-                iconClass: "icon-editor",
-                category: "editors",
-                subcategory: "text",
-            },
-            {
-                id: "linkosi",
-                title: "LINKOSI",
-                url: "https://linkosi.carrd.co/",
-                icon: "fas fa-file-alt",
-                iconClass: "icon-text",
-                category: "editors",
-                subcategory: "links",
-            },
+    // Row 2
+    {
+        id: "edytor",
+        title: "EDYTOR",
+        url: "https://edytortxt.carrd.co/",
+        icon: "fas fa-edit",
+        iconClass: "icon-editor",
+        category: "editors",
+        subcategory: "text",
+    },
+    {
+        id: "edytor-alt",
+        title: "EDYTOR",
+        url: "https://edytor.carrd.co/",
+        icon: "fas fa-edit",
+        iconClass: "icon-editor",
+        category: "editors",
+        subcategory: "text",
+    },
+    {
+        id: "linkosi",
+        title: "LINKOSI",
+        url: "https://linkosi.carrd.co/",
+        icon: "fas fa-file-alt",
+        iconClass: "icon-text",
+        category: "editors",
+        subcategory: "links",
+    },
 
-            // Row 3
-            {
-                id: "playliveos",
-                title: "PLAYLIVEOS",
-                url: "https://playliveos.carrd.co/",
-                icon: "fas fa-file-alt",
-                iconClass: "icon-text",
-                category: "editors",
-                subcategory: "utility",
-            },
-            {
-                id: "text-pro",
-                title: "TEXT PRO",
-                url: "https://txtpro.carrd.co/",
-                icon: "fas fa-font",
-                iconClass: "icon-text",
-                category: "editors",
-                subcategory: "text",
-            },
-            {
-                id: "tools-nue",
-                title: "TOOLS NUE",
-                url: "https://toolsnue.carrd.co/",
-                icon: "fas fa-wrench",
-                iconClass: "icon-tools",
-                category: "tools",
-                subcategory: "utility",
-            },
+    // Row 3
+    {
+        id: "playliveos",
+        title: "PLAYLIVEOS",
+        url: "https://playliveos.carrd.co/",
+        icon: "fas fa-file-alt",
+        iconClass: "icon-text",
+        category: "editors",
+        subcategory: "utility",
+    },
+    {
+        id: "text-pro",
+        title: "TEXT PRO",
+        url: "https://txtpro.carrd.co/",
+        icon: "fas fa-font",
+        iconClass: "icon-text",
+        category: "editors",
+        subcategory: "text",
+    },
+    {
+        id: "tools-nue",
+        title: "TOOLS NUE",
+        url: "https://toolsnue.carrd.co/",
+        icon: "fas fa-wrench",
+        iconClass: "icon-tools",
+        category: "tools",
+        subcategory: "utility",
+    },
 
-            // Row 2
-            {
-                id: "modifier",
-                title: "MODIFIER",
-                url: "https://modifier.carrd.co/",
-                icon: "fas fa-sliders-h",
-                iconClass: "icon-modifier",
-                category: "tools",
-                subcategory: "utility",
-            },
-            {
-                id: "uniwersal-play",
-                title: "UNIWERSAL PLAY",
-                url: "https://uniwersalplay.carrd.co/",
-                icon: "fas fa-play",
-                iconClass: "icon-play",
-                category: "tools",
-                subcategory: "utility",
-            },
-            {
-                id: "logowanie",
-                title: "METEO",
-                url: "https://appmeteo.carrd.co/",
-                icon: "fas fa-sign-in-alt",
-                iconClass: "icon-login",
-                category: "tools",
-                subcategory: "utility",
-            },
-            {
-                id: "w5ui",
-                title: "W5UI",
-                url: "https://w5ui.carrd.co/",
-                icon: "fas fa-palette",
-                iconClass: "icon-w5ui",
-                category: "tools",
-                subcategory: "ui",
-            },
+    // Row 2
+    {
+        id: "modifier",
+        title: "MODIFIER",
+        url: "https://modifier.carrd.co/",
+        icon: "fas fa-sliders-h",
+        iconClass: "icon-modifier",
+        category: "tools",
+        subcategory: "utility",
+    },
+    {
+        id: "uniwersal-play",
+        title: "UNIWERSAL PLAY",
+        url: "https://uniwersalplay.carrd.co/",
+        icon: "fas fa-play",
+        iconClass: "icon-play",
+        category: "tools",
+        subcategory: "utility",
+    },
+    {
+        id: "logowanie",
+        title: "METEO",
+        url: "https://appmeteo.carrd.co/",
+        icon: "fas fa-sign-in-alt",
+        iconClass: "icon-login",
+        category: "tools",
+        subcategory: "utility",
+    },
+    {
+        id: "w5ui",
+        title: "W5UI",
+        url: "https://w5ui.carrd.co/",
+        icon: "fas fa-palette",
+        iconClass: "icon-w5ui",
+        category: "tools",
+        subcategory: "ui",
+    },
 
-            // === KOLUMNA 3: DANE, OBRAZY I WEB ===
-            // Row 1
-            {
-                id: "arkusz",
-                title: "ARKUSZ",
-                url: "https://arkusz.carrd.co/",
-                icon: "fas fa-table",
-                iconClass: "icon-table",
-                category: "data",
-                subcategory: "spreadsheet",
-            },
-            {
-                id: "sites-w5",
-                title: "SITES W5",
-                url: "https://sitesw5.carrd.co/",
-                icon: "fas fa-globe",
-                iconClass: "icon-sites",
-                category: "tools",
-                subcategory: "web",
-            },
-            {
-                id: "project-dev",
-                title: "VS EDITOR",
-                url: "https://vseditor.carrd.co/",
-                icon: "fas fa-project-diagram",
-                iconClass: "icon-project",
-                category: "tools",
-                subcategory: "project",
-            },
+    // === KOLUMNA 3: DANE, OBRAZY I WEB ===
+    // Row 1
+    {
+        id: "arkusz",
+        title: "ARKUSZ",
+        url: "https://arkusz.carrd.co/",
+        icon: "fas fa-table",
+        iconClass: "icon-table",
+        category: "data",
+        subcategory: "spreadsheet",
+    },
+    {
+        id: "sites-w5",
+        title: "SITES W5",
+        url: "https://sitesw5.carrd.co/",
+        icon: "fas fa-globe",
+        iconClass: "icon-sites",
+        category: "tools",
+        subcategory: "web",
+    },
+    {
+        id: "project-dev",
+        title: "VS EDITOR",
+        url: "https://vseditor.carrd.co/",
+        icon: "fas fa-project-diagram",
+        iconClass: "icon-project",
+        category: "tools",
+        subcategory: "project",
+    },
 
-            // === DODATKOWE NARZĘDZIA ===
-            // Row 4
-            {
-                id: "task-day",
-                title: "EXD 9",
-                url: "https://exd9.carrd.co/",
-                icon: "fas fa-tasks",
-                iconClass: "icon-task",
-                category: "tools",
-                subcategory: "tasks",
-            },
-            {
-                id: "tools-link",
-                title: "TOOLS LINK",
-                url: "https://toolslinki.carrd.co/",
-                icon: "fas fa-link",
-                iconClass: "icon-link",
-                category: "tools",
-                subcategory: "links",
-            },
+    // === DODATKOWE NARZĘDZIA ===
+    // Row 4
+    {
+        id: "task-day",
+        title: "EXD 9",
+        url: "https://exd9.carrd.co/",
+        icon: "fas fa-tasks",
+        iconClass: "icon-task",
+        category: "tools",
+        subcategory: "tasks",
+    },
+    {
+        id: "tools-link",
+        title: "TOOLS LINK",
+        url: "https://toolslinki.carrd.co/",
+        icon: "fas fa-link",
+        iconClass: "icon-link",
+        category: "tools",
+        subcategory: "links",
+    },
 
-            // Row 5
-            {
-                id: "tools-link-alt",
-                title: "TOOLS LINK",
-                url: "https://toolslink.carrd.co/",
-                icon: "fas fa-link",
-                iconClass: "icon-toolslink",
-                category: "tools",
-                subcategory: "links",
-            },
-        ];
+    // Row 5
+    {
+        id: "tools-link-alt",
+        title: "TOOLS LINK",
+        url: "https://toolslink.carrd.co/",
+        icon: "fas fa-link",
+        iconClass: "icon-toolslink",
+        category: "tools",
+        subcategory: "links",
+    },
+];
 
-        const extraTools = [
-            {
-                id: "in-csv-dev",
-                title: "Csv-3.1.F",
-                url: "https://upcsv.carrd.co/",
-                icon: "fas fa-file-csv",
-                iconClass: "icon-csv",
-                category: "data",
-                subcategory: "csv",
-            },
-            {
-                id: "web-tools-dev",
-                title: "WEB TOOLS DEV",
-                url: "https://webtoolsdev.carrd.co/",
-                icon: "fas fa-globe",
-                iconClass: "icon-web",
-                category: "tools",
-                subcategory: "web",
-            },
-            {
-                id: "txt-pro",
-                title: "TXT PRO",
-                url: "https://txtpro.carrd.co",
-                icon: "fas fa-font",
-                iconClass: "icon-text",
-                category: "editors",
-                subcategory: "text",
-            },
-            {
-                id: "text-img",
-                title: "S-CSV-2.0.F",
-                url: "https://incsvdev.carrd.co/",
-                icon: "fas fa-table",
-                iconClass: "icon-table",
-                category: "tools",
-                subcategory: "table",
-            },
-            {
-                id: "addlist",
-                title: "ADDLIST",
-                url: "https://addlist.carrd.co/",
-                icon: "fas fa-list-ol",
-                iconClass: "icon-addlist",
-                category: "tools",
-                subcategory: "utility"
-            },
-            {
-                id: "codeinspect",
-                title: "CODEINSPECT",
-                url: "https://codeinspect.carrd.co/",
-                icon: "fas fa-search-plus",
-                iconClass: "icon-codeinspect",
-                category: "code",
-                subcategory: "utility"
-            },
-            {
-                id: "csvy",
-                title: "CSVY",
-                url: "https://csvy.carrd.co/",
-                icon: "fas fa-file-csv",
-                iconClass: "icon-csv",
-                category: "data",
-                subcategory: "csv"
-            },
-            {
-                id: "czatdev",
-                title: "CZATDEV",
-                url: "https://czatdev.carrd.co/",
-                icon: "fas fa-comments",
-                iconClass: "icon-chat",
-                category: "tools",
-                subcategory: "chat"
-            },
-            {
-                id: "devospanel",
-                title: "DEVOSPANEL",
-                url: "https://devospanel.carrd.co/",
-                icon: "fas fa-columns",
-                iconClass: "icon-panel",
-                category: "tools",
-                subcategory: "ui"
-            },
-            {
-                id: "devpage5",
-                title: "DEVPAGE5",
-                url: "https://devpage5.carrd.co/",
-                icon: "fas fa-file-alt",
-                iconClass: "icon-page",
-                category: "tools",
-                subcategory: "web"
-            },
-            {
-                id: "glassplay",
-                title: "GLASSPLAY",
-                url: "https://glassplay.carrd.co/",
-                icon: "fas fa-play-circle",
-                iconClass: "icon-play",
-                category: "tools",
-                subcategory: "media"
-            },
-            {
-                id: "grafikdev",
-                title: "GRAFIKDEV",
-                url: "https://grafikdev.carrd.co/",
-                icon: "fas fa-chart-pie",
-                iconClass: "icon-graph",
-                category: "data",
-                subcategory: "charts"
-            },
-            {
-                id: "grafiksum",
-                title: "GRAFIKSUM",
-                url: "https://grafiksum.carrd.co/",
-                icon: "fas fa-chart-bar",
-                iconClass: "icon-graph",
-                category: "data",
-                subcategory: "charts"
-            },
-            {
-                id: "imgadd",
-                title: "IMGADD",
-                url: "https://imgadd.carrd.co/",
-                icon: "fas fa-image",
-                iconClass: "icon-image",
-                category: "tools",
-                subcategory: "image"
-            },
-            {
-                id: "notedev",
-                title: "NOTEDEV",
-                url: "https://notedev.carrd.co/",
-                icon: "fas fa-sticky-note",
-                iconClass: "icon-note",
-                category: "editors",
-                subcategory: "notes"
-            },
-            {
-                id: "panelsdev",
-                title: "PANELSDEV",
-                url: "https://panelsdev.carrd.co/",
-                icon: "fas fa-grip-horizontal",
-                iconClass: "icon-panel",
-                category: "tools",
-                subcategory: "ui"
-            },
-            {
-                id: "playyt",
-                title: "PLAYYT",
-                url: "https://playyt.carrd.co/",
-                icon: "fab fa-youtube",
-                iconClass: "icon-youtube",
-                category: "tools",
-                subcategory: "media"
-            },
-            {
-                id: "pracasuma",
-                title: "PRACASUMA",
-                url: "https://pracasuma.carrd.co/",
-                icon: "fas fa-calculator",
-                iconClass: "icon-calc",
-                category: "tools",
-                subcategory: "utility"
-            },
-            {
-                id: "w5e",
-                title: "W5E",
-                url: "https://w5e.carrd.co/",
-                icon: "fas fa-cubes",
-                iconClass: "icon-w5e",
-                category: "tools",
-                subcategory: "ui"
-            },
+const extraTools = [
+    {
+        id: "in-csv-dev",
+        title: "Csv-3.1.F",
+        url: "https://upcsv.carrd.co/",
+        icon: "fas fa-file-csv",
+        iconClass: "icon-csv",
+        category: "data",
+        subcategory: "csv",
+    },
+    {
+        id: "web-tools-dev",
+        title: "WEB TOOLS DEV",
+        url: "https://webtoolsdev.carrd.co/",
+        icon: "fas fa-globe",
+        iconClass: "icon-web",
+        category: "tools",
+        subcategory: "web",
+    },
+    {
+        id: "txt-pro",
+        title: "TXT PRO",
+        url: "https://txtpro.carrd.co",
+        icon: "fas fa-font",
+        iconClass: "icon-text",
+        category: "editors",
+        subcategory: "text",
+    },
+    {
+        id: "text-img",
+        title: "S-CSV-2.0.F",
+        url: "https://incsvdev.carrd.co/",
+        icon: "fas fa-table",
+        iconClass: "icon-table",
+        category: "tools",
+        subcategory: "table",
+    },
+    {
+        id: "addlist",
+        title: "ADDLIST",
+        url: "https://addlist.carrd.co/",
+        icon: "fas fa-list-ol",
+        iconClass: "icon-addlist",
+        category: "tools",
+        subcategory: "utility",
+    },
+    {
+        id: "codeinspect",
+        title: "CODEINSPECT",
+        url: "https://codeinspect.carrd.co/",
+        icon: "fas fa-search-plus",
+        iconClass: "icon-codeinspect",
+        category: "code",
+        subcategory: "utility",
+    },
+    {
+        id: "csvy",
+        title: "CSVY",
+        url: "https://csvy.carrd.co/",
+        icon: "fas fa-file-csv",
+        iconClass: "icon-csv",
+        category: "data",
+        subcategory: "csv",
+    },
+    {
+        id: "czatdev",
+        title: "CZATDEV",
+        url: "https://czatdev.carrd.co/",
+        icon: "fas fa-comments",
+        iconClass: "icon-chat",
+        category: "tools",
+        subcategory: "chat",
+    },
+    {
+        id: "devospanel",
+        title: "DEVOSPANEL",
+        url: "https://devospanel.carrd.co/",
+        icon: "fas fa-columns",
+        iconClass: "icon-panel",
+        category: "tools",
+        subcategory: "ui",
+    },
+    {
+        id: "devpage5",
+        title: "DEVPAGE5",
+        url: "https://devpage5.carrd.co/",
+        icon: "fas fa-file-alt",
+        iconClass: "icon-page",
+        category: "tools",
+        subcategory: "web",
+    },
+    {
+        id: "glassplay",
+        title: "GLASSPLAY",
+        url: "https://glassplay.carrd.co/",
+        icon: "fas fa-play-circle",
+        iconClass: "icon-play",
+        category: "tools",
+        subcategory: "media",
+    },
+    {
+        id: "grafikdev",
+        title: "GRAFIKDEV",
+        url: "https://grafikdev.carrd.co/",
+        icon: "fas fa-chart-pie",
+        iconClass: "icon-graph",
+        category: "data",
+        subcategory: "charts",
+    },
+    {
+        id: "grafiksum",
+        title: "GRAFIKSUM",
+        url: "https://grafiksum.carrd.co/",
+        icon: "fas fa-chart-bar",
+        iconClass: "icon-graph",
+        category: "data",
+        subcategory: "charts",
+    },
+    {
+        id: "imgadd",
+        title: "IMGADD",
+        url: "https://imgadd.carrd.co/",
+        icon: "fas fa-image",
+        iconClass: "icon-image",
+        category: "tools",
+        subcategory: "image",
+    },
+    {
+        id: "notedev",
+        title: "NOTEDEV",
+        url: "https://notedev.carrd.co/",
+        icon: "fas fa-sticky-note",
+        iconClass: "icon-note",
+        category: "editors",
+        subcategory: "notes",
+    },
+    {
+        id: "panelsdev",
+        title: "PANELSDEV",
+        url: "https://panelsdev.carrd.co/",
+        icon: "fas fa-grip-horizontal",
+        iconClass: "icon-panel",
+        category: "tools",
+        subcategory: "ui",
+    },
+    {
+        id: "playyt",
+        title: "PLAYYT",
+        url: "https://playyt.carrd.co/",
+        icon: "fab fa-youtube",
+        iconClass: "icon-youtube",
+        category: "tools",
+        subcategory: "media",
+    },
+    {
+        id: "pracasuma",
+        title: "PRACASUMA",
+        url: "https://pracasuma.carrd.co/",
+        icon: "fas fa-calculator",
+        iconClass: "icon-calc",
+        category: "tools",
+        subcategory: "utility",
+    },
+    {
+        id: "w5e",
+        title: "W5E",
+        url: "https://w5e.carrd.co/",
+        icon: "fas fa-cubes",
+        iconClass: "icon-w5e",
+        category: "tools",
+        subcategory: "ui",
+    },
 ];
 
 const cardData = [...carrdLinks, ...extraTools];
@@ -353,8 +353,8 @@ let chat;
 
 // --- MAIN INITIALIZATION ---
 // Wait for dynamic HTML to be generated before initializing functionality
-document.addEventListener('dynamicHTMLReady', () => {
-    console.log('Dynamic HTML ready, initializing functionality...');
+document.addEventListener("dynamicHTMLReady", () => {
+    console.log("Dynamic HTML ready, initializing functionality...");
     initApiKey();
     initClockAndDate();
     initNavigation();
@@ -374,19 +374,22 @@ document.addEventListener('dynamicHTMLReady', () => {
     initTextAnalyzerModal();
     initIframeViewerModal();
     initCardIframeLinks();
-    console.log('All functionality initialized successfully!');
+    console.log("All functionality initialized successfully!");
 });
 
 // Fallback initialization for direct loading (if dynamic HTML is not used)
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
     // Check if dynamic HTML elements exist, if not wait a bit and try again
-    if (!document.querySelector('nav') || !document.querySelector('.content-container')) {
-        console.log('Waiting for dynamic HTML generation...');
+    if (
+        !document.querySelector("nav") ||
+        !document.querySelector(".content-container")
+    ) {
+        console.log("Waiting for dynamic HTML generation...");
         return; // Let the dynamicHTMLReady event handle initialization
     }
 
     // If static HTML exists, initialize immediately
-    console.log('Static HTML detected, initializing immediately...');
+    console.log("Static HTML detected, initializing immediately...");
     initApiKey();
     initClockAndDate();
     initNavigation();
@@ -417,140 +420,163 @@ function initApiKey() {
     console.log("Initializing API key functionality...");
 
     // Load saved API key
-    const savedKey = localStorage.getItem('genai-api-key');
+    const savedKey = localStorage.getItem("genai-api-key");
     if (savedKey) {
-        document.getElementById('api-key-input').value = savedKey;
+        document.getElementById("api-key-input").value = savedKey;
         initializeAI(savedKey);
     }
 
     // Set up event listeners
-    document.getElementById('toggle-api-key')?.addEventListener('click', toggleApiKeyVisibility);
-    document.getElementById('save-api-key')?.addEventListener('click', saveApiKey);
-    document.getElementById('clear-api-key')?.addEventListener('click', clearApiKey);
-    document.getElementById('api-key-input')?.addEventListener('input', handleApiKeyInput);
-    document.getElementById('api-key-input')?.addEventListener('keypress', function (e) {
-        if (e.key === 'Enter') {
-            saveApiKey();
-        }
-    });
+    document
+        .getElementById("toggle-api-key")
+        ?.addEventListener("click", toggleApiKeyVisibility);
+    document
+        .getElementById("save-api-key")
+        ?.addEventListener("click", saveApiKey);
+    document
+        .getElementById("clear-api-key")
+        ?.addEventListener("click", clearApiKey);
+    document
+        .getElementById("api-key-input")
+        ?.addEventListener("input", handleApiKeyInput);
+    document
+        .getElementById("api-key-input")
+        ?.addEventListener("keypress", function (e) {
+            if (e.key === "Enter") {
+                saveApiKey();
+            }
+        });
 }
 
 function toggleApiKeyVisibility() {
-    const input = document.getElementById('api-key-input');
-    const icon = document.querySelector('#toggle-api-key i');
+    const input = document.getElementById("api-key-input");
+    const icon = document.querySelector("#toggle-api-key i");
 
-    if (input.type === 'password') {
-        input.type = 'text';
-        icon.classList.remove('fa-eye');
-        icon.classList.add('fa-eye-slash');
+    if (input.type === "password") {
+        input.type = "text";
+        icon.classList.remove("fa-eye");
+        icon.classList.add("fa-eye-slash");
     } else {
-        input.type = 'password';
-        icon.classList.remove('fa-eye-slash');
-        icon.classList.add('fa-eye');
+        input.type = "password";
+        icon.classList.remove("fa-eye-slash");
+        icon.classList.add("fa-eye");
     }
 }
 
 function handleApiKeyInput() {
-    const input = document.getElementById('api-key-input');
-    const status = document.getElementById('api-key-status');
+    const input = document.getElementById("api-key-input");
+    const status = document.getElementById("api-key-status");
 
     if (input.value.trim().length > 0) {
-        status.innerHTML = '<i class="fas fa-info-circle"></i> Naciśnij Enter lub Zapisz';
-        status.className = 'api-input-status warning visible';
+        status.innerHTML =
+            '<i class="fas fa-info-circle"></i> Naciśnij Enter lub Zapisz';
+        status.className = "api-input-status warning visible";
     } else {
-        status.innerHTML = '';
-        status.className = 'api-input-status';
+        status.innerHTML = "";
+        status.className = "api-input-status";
     }
 }
 
 function saveApiKey() {
-    const input = document.getElementById('api-key-input');
-    const status = document.getElementById('api-key-status');
+    const input = document.getElementById("api-key-input");
+    const status = document.getElementById("api-key-status");
     const apiKey = input.value.trim();
 
     if (!apiKey) {
-        status.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Wprowadź klucz API';
-        status.className = 'api-input-status error visible';
+        status.innerHTML =
+            '<i class="fas fa-exclamation-triangle"></i> Wprowadź klucz API';
+        status.className = "api-input-status error visible";
         return;
     }
 
     // Save to localStorage
-    localStorage.setItem('genai-api-key', apiKey);
+    localStorage.setItem("genai-api-key", apiKey);
 
     // Initialize AI
     initializeAI(apiKey);
 }
 
 function clearApiKey() {
-    const input = document.getElementById('api-key-input');
-    const status = document.getElementById('api-key-status');
+    const input = document.getElementById("api-key-input");
+    const status = document.getElementById("api-key-status");
 
     // Clear input
-    input.value = '';
+    input.value = "";
 
     // Clear localStorage
-    localStorage.removeItem('genai-api-key');
+    localStorage.removeItem("genai-api-key");
 
     // Clear AI instance
     ai = null;
 
     // Update status
-    status.innerHTML = '<i class="fas fa-info-circle"></i> Klucz API został wyczyszczony';
-    status.className = 'api-input-status warning visible';
+    status.innerHTML =
+        '<i class="fas fa-info-circle"></i> Klucz API został wyczyszczony';
+    status.className = "api-input-status warning visible";
 
     // Clear status after 3 seconds
     setTimeout(() => {
-        status.innerHTML = '';
-        status.className = 'api-input-status';
+        status.innerHTML = "";
+        status.className = "api-input-status";
     }, 3000);
 
-    console.log('API key cleared');
+    console.log("API key cleared");
 }
 
 async function initializeAI(apiKey) {
-    const status = document.getElementById('api-key-status');
+    const status = document.getElementById("api-key-status");
 
     try {
-        status.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sprawdzanie klucza...';
-        status.className = 'api-input-status warning visible';
+        status.innerHTML =
+            '<i class="fas fa-spinner fa-spin"></i> Sprawdzanie klucza...';
+        status.className = "api-input-status warning visible";
 
         // Import and initialize Google GenAI
-        const { GoogleGenerativeAI } = await import('@google/genai');
+        const { GoogleGenerativeAI } = await import("@google/genai");
         ai = new GoogleGenerativeAI(apiKey);
 
         // Test the API key with a simple request
-        const model = ai.getGenerativeModel({ model: 'gemini-1.5-flash' });
-        await model.generateContent('Test');
+        const model = ai.getGenerativeModel({ model: "gemini-1.5-flash" });
+        await model.generateContent("Test");
 
-        status.innerHTML = '<i class="fas fa-check-circle"></i> Klucz API sprawny';
-        status.className = 'api-input-status success visible';
+        status.innerHTML =
+            '<i class="fas fa-check-circle"></i> Klucz API sprawny';
+        status.className = "api-input-status success visible";
 
-        console.log('AI initialized successfully');
+        console.log("AI initialized successfully");
     } catch (error) {
-        console.error('AI initialization failed:', error);
-        status.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Nieprawidłowy klucz API';
-        status.className = 'api-input-status error visible';
+        console.error("AI initialization failed:", error);
+        status.innerHTML =
+            '<i class="fas fa-exclamation-triangle"></i> Nieprawidłowy klucz API';
+        status.className = "api-input-status error visible";
         ai = null;
     }
 }
 
 function initClockAndDate() {
-    const hoursEl = document.getElementById('hours');
-    const minutesEl = document.getElementById('minutes');
-    const secondsEl = document.getElementById('seconds');
-    const dateEl = document.getElementById('current-date');
+    const hoursEl = document.getElementById("hours");
+    const minutesEl = document.getElementById("minutes");
+    const secondsEl = document.getElementById("seconds");
+    const dateEl = document.getElementById("current-date");
 
     function updateTime() {
         const now = new Date();
-        hoursEl.textContent = String(now.getHours()).padStart(2, '0');
-        minutesEl.textContent = String(now.getMinutes()).padStart(2, '0');
-        secondsEl.textContent = String(now.getSeconds()).padStart(2, '0');
+        hoursEl.textContent = String(now.getHours()).padStart(2, "0");
+        minutesEl.textContent = String(now.getMinutes()).padStart(2, "0");
+        secondsEl.textContent = String(now.getSeconds()).padStart(2, "0");
     }
 
     function updateDate() {
         const now = new Date();
-        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        dateEl.textContent = now.toLocaleDateString('pl-PL', options).toUpperCase();
+        const options = {
+            weekday: "long",
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+        };
+        dateEl.textContent = now
+            .toLocaleDateString("pl-PL", options)
+            .toUpperCase();
     }
 
     updateTime();
@@ -559,20 +585,20 @@ function initClockAndDate() {
 }
 
 function initNavigation() {
-    const navButtons = document.querySelectorAll('.nav-button');
-    const contentSections = document.querySelectorAll('.content-section');
+    const navButtons = document.querySelectorAll(".nav-button");
+    const contentSections = document.querySelectorAll(".content-section");
 
-    navButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const targetId = button.getAttribute('data-target');
+    navButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+            const targetId = button.getAttribute("data-target");
 
-            navButtons.forEach(btn => btn.classList.remove('active'));
-            button.classList.add('active');
+            navButtons.forEach((btn) => btn.classList.remove("active"));
+            button.classList.add("active");
 
-            contentSections.forEach(section => {
-                section.classList.remove('active');
+            contentSections.forEach((section) => {
+                section.classList.remove("active");
                 if (section.id === targetId) {
-                    section.classList.add('active');
+                    section.classList.add("active");
                 }
             });
         });
@@ -582,34 +608,39 @@ function initNavigation() {
 // Theme toggle is now handled by index.html - this function is no longer needed
 
 function initModals() {
-    const modals = document.querySelectorAll('.modal');
-    const apiModal = document.getElementById('myModal10');
+    const modals = document.querySelectorAll(".modal");
+    const apiModal = document.getElementById("myModal10");
 
     // Open modal
     for (let i = 1; i <= 10; i++) {
         const openButton = document.getElementById(`openModal${i}`);
         if (openButton) {
-            openButton.addEventListener('click', () => {
+            openButton.addEventListener("click", () => {
                 if (i === 10) {
                     // Special handling for API modal
-                    apiModal?.classList.add('active');
+                    apiModal?.classList.add("active");
                 } else {
-                    document.getElementById(`myModal${i}`)?.classList.add('active');
+                    document
+                        .getElementById(`myModal${i}`)
+                        ?.classList.add("active");
                 }
             });
         }
     }
 
     // Close modal
-    modals.forEach(modal => {
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal || e.target.classList.contains('close-button')) {
-                modal.classList.remove('active');
+    modals.forEach((modal) => {
+        modal.addEventListener("click", (e) => {
+            if (
+                e.target === modal ||
+                e.target.classList.contains("close-button")
+            ) {
+                modal.classList.remove("active");
                 // If we are closing the iframe modal, reset its content
-                if (modal.id === 'myModal9') {
-                    const iframe = document.getElementById('content-iframe');
+                if (modal.id === "myModal9") {
+                    const iframe = document.getElementById("content-iframe");
                     if (iframe) {
-                        iframe.src = 'about:blank';
+                        iframe.src = "about:blank";
                     }
                 }
             }
@@ -619,56 +650,206 @@ function initModals() {
     // Special handling for API modal
     if (apiModal) {
         // Close on overlay click
-        const overlay = apiModal.querySelector('.modal-api-overlay');
+        const overlay = apiModal.querySelector(".modal-api-overlay");
         if (overlay) {
-            overlay.addEventListener('click', () => {
-                apiModal.classList.remove('active');
+            overlay.addEventListener("click", () => {
+                apiModal.classList.remove("active");
             });
         }
 
         // Close on close button click
-        const closeBtn = document.getElementById('close-api-modal');
+        const closeBtn = document.getElementById("close-api-modal");
         if (closeBtn) {
-            closeBtn.addEventListener('click', () => {
-                apiModal.classList.remove('active');
+            closeBtn.addEventListener("click", () => {
+                apiModal.classList.remove("active");
             });
         }
     }
 }
 
+// === LOGIKA FAVICON (PRZENIESIONA Z INDEX.HTML) ===
+
+/**
+ * Pobiera preferowany URL favicony.
+ * @param {string} url - Pełny URL linku.
+ * @returns {string} - URL do próby pobrania favicony.
+ */
+function getFaviconUrl(url) {
+    let cleanUrl;
+    try {
+        cleanUrl = new URL(url).hostname.replace(/^www\./, "");
+    } catch (e) {
+        cleanUrl = url
+            .replace(/^https?:\/\//, "")
+            .replace(/^www\./, "")
+            .split("/")[0];
+    }
+
+    // Dla carrd.co użyj prawdziwą strukturę favicon
+    if (cleanUrl.includes("carrd.co")) {
+        return `https://${cleanUrl}/assets/images/favicon.png`;
+    }
+
+    return `https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://${cleanUrl}&size=32`;
+}
+
+/**
+ * Obsługuje błędy ładowania favicon, próbując różnych źródeł.
+ * @param {HTMLElement} imgElement - Element <img>, który zawiódł.
+ * @param {string} linkUrl - URL linku.
+ */
+function handleFaviconError(imgElement, linkUrl) {
+    const attempt = parseInt(imgElement.dataset.attempt) || 1;
+    let cleanUrl;
+    try {
+        cleanUrl = new URL(linkUrl).hostname.replace(/^www\./, "");
+    } catch (e) {
+        cleanUrl = linkUrl
+            .replace(/^https?:\/\//, "")
+            .replace(/^www\./, "")
+            .split("/")[0];
+    }
+    const isCarrd = cleanUrl.includes("carrd.co");
+
+    if (isCarrd) {
+        // Specjalna logika dla carrd.co
+        if (attempt === 1) {
+            // Druga próba - apple-touch-icon jako fallback
+            imgElement.src = `https://${cleanUrl}/assets/images/apple-touch-icon.png`;
+            imgElement.dataset.attempt = "2";
+        } else if (attempt === 2) {
+            // Trzecia próba - Yandex API
+            imgElement.src = `https://favicon.yandex.net/favicon/${cleanUrl}`;
+            imgElement.dataset.attempt = "3";
+        } else {
+            // Pokaż fallback
+            showFaviconFallback(imgElement, linkUrl);
+        }
+    } else {
+        // Standardowa logika dla innych stron
+        if (attempt === 1) {
+            // Druga próba - stare Google Favicons API jako fallback
+            imgElement.src = `https://www.google.com/s2/favicons?domain=${cleanUrl}&sz=32`;
+            imgElement.dataset.attempt = "2";
+        } else if (attempt === 2) {
+            // Trzecia próba - DuckDuckGo
+            imgElement.src = `https://icons.duckduckgo.com/ip3/${cleanUrl}.ico`;
+            imgElement.dataset.attempt = "3";
+        } else if (attempt === 3) {
+            // Czwarta próba - bezpośredni favicon
+            imgElement.src = `https://${cleanUrl}/favicon.ico`;
+            imgElement.dataset.attempt = "4";
+        } else {
+            // Pokaż fallback
+            showFaviconFallback(imgElement, linkUrl);
+        }
+    }
+}
+
+/**
+ * Wyświetla rezerwową ikonę (literę) w przypadku niepowodzenia ładowania favicony.
+ * @param {HTMLElement} imgElement - Element <img>, który zawiódł.
+ */
+function showFaviconFallback(imgElement) {
+    imgElement.style.display = "none"; // Ukryj uszkodzony obraz
+    const fallbackDiv = imgElement.nextElementSibling; // Znajdź fallback div
+    if (
+        fallbackDiv &&
+        (fallbackDiv.classList.contains("favicon-fallback") ||
+            fallbackDiv.classList.contains("card-icon-fallback"))
+    ) {
+        fallbackDiv.style.display = "flex"; // Pokaż fallback
+    }
+}
+
+/**
+ * Pobiera pierwszą literę domeny dla fallbacku.
+ * @param {string} linkUrl - URL linku.
+ * @returns {string} - Pierwsza litera domeny.
+ */
+function getFirstLetter(linkUrl) {
+    try {
+        const domain = new URL(linkUrl).hostname.replace(/^www\./, "");
+        return domain.charAt(0).toUpperCase();
+    } catch (e) {
+        try {
+            const domain = linkUrl
+                .replace(/^https?:\/\//, "")
+                .replace(/^www\./, "");
+            return domain.charAt(0).toUpperCase();
+        } catch (e2) {
+            return "?";
+        }
+    }
+}
+
+// === KONIEC LOGIKI FAVICON ===
+
 function renderAllCards() {
-    const allGrid = document.getElementById('all-grid');
-    const editorsGrid = document.getElementById('editors-grid');
-    const toolsGrid = document.getElementById('tools-grid');
-    const dataGrid = document.getElementById('data-grid');
-    const codeGrid = document.getElementById('code-grid');
+    const allGrid = document.getElementById("all-grid");
+    const editorsGrid = document.getElementById("editors-grid");
+    const toolsGrid = document.getElementById("tools-grid");
+    const dataGrid = document.getElementById("data-grid");
+    const codeGrid = document.getElementById("code-grid");
 
     const grids = {
         editors: editorsGrid,
         tools: toolsGrid,
         data: dataGrid,
-        code: codeGrid
+        code: codeGrid,
     };
 
-    const container = document.querySelector('#all-section .grid-container');
-    container.innerHTML = '';
+    const container = document.querySelector("#all-section .grid-container");
+    container.innerHTML = "";
 
-    Object.values(grids).forEach(grid => {
-        if (grid) grid.innerHTML = '';
+    Object.values(grids).forEach((grid) => {
+        if (grid) grid.innerHTML = "";
     });
 
-    cardData.forEach(card => {
+    cardData.forEach((card) => {
+        // *** MODYFIKACJA ***
+        // Dodano logikę favicon
+        const faviconUrl = getFaviconUrl(card.url);
+        const fallbackLetter = getFirstLetter(card.url);
+        const escapedUrl = card.url
+            .replace(/'/g, "\\'")
+            .replace(/"/g, "&quot;");
+
+        // Zastąpiono <i class="..."></i> nową logiką <img> + fallback
         const cardHtml = `
             <div class="card" data-category="${card.category}">
-                <i class="${card.icon} card-icon"></i>
+                
+                <!-- Ikona (favicon) -->
+                <img src="${faviconUrl}" 
+                     alt="${card.title} icon" 
+                     class="card-icon" 
+                     loading="lazy"
+                     data-attempt="1"
+                     onerror="handleFaviconError(this, '${escapedUrl}')"
+                >
+                
+                <!-- Fallback na literę -->
+                <div class="card-icon-fallback" style="display: none;">
+                    ${fallbackLetter}
+                </div>
+
                 <h3>${card.title}</h3>
-                <p>${card.subcategory.charAt(0).toUpperCase() + card.subcategory.slice(1)}</p>
+                <p>${
+                    card.subcategory.charAt(0).toUpperCase() +
+                    card.subcategory.slice(1)
+                }</p>
                 <div class="card-buttons">
-                    <a href="${card.url}" class="card-iframe-link" rel="noopener noreferrer"><i class="fas fa-eye"></i></a>
-                    <a href="${card.url}" class="card-new-tab-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-plus"></i></a>
+                    <a href="${
+                        card.url
+                    }" class="card-iframe-link" rel="noopener noreferrer"><i class="fas fa-eye"></i></a>
+                    <a href="${
+                        card.url
+                    }" class="card-new-tab-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-plus"></i></a>
                 </div>
             </div>
         `;
+        // *** KONIEC MODYFIKACJI ***
+
         container.innerHTML += cardHtml;
         if (grids[card.category]) {
             grids[card.category].innerHTML += cardHtml;
@@ -677,42 +858,54 @@ function renderAllCards() {
 }
 
 function initMonacoEditor() {
+    // ... (reszta kodu bez zmian) ...
     // Dispose of existing editors if they exist
     if (window.editor) {
-        console.log('Disposing existing Monaco editor...');
+        console.log("Disposing existing Monaco editor...");
         window.editor.dispose();
         window.editor = null;
     }
 
     if (window.fullscreenEditor) {
-        console.log('Disposing existing fullscreen Monaco editor...');
+        console.log("Disposing existing fullscreen Monaco editor...");
         window.fullscreenEditor.dispose();
         window.fullscreenEditor = null;
     }
 
-    const container = document.getElementById('monaco-editor-container');
-    const fullscreenContainer = document.getElementById('monaco-editor-fullscreen');
+    const container = document.getElementById("monaco-editor-container");
+    const fullscreenContainer = document.getElementById(
+        "monaco-editor-fullscreen"
+    );
 
     if (!container) {
-        console.error('Monaco editor container not found');
+        console.error("Monaco editor container not found");
         return;
     }
 
     // Clear the container content
-    container.innerHTML = '';
+    container.innerHTML = "";
     if (fullscreenContainer) {
-        fullscreenContainer.innerHTML = '';
+        fullscreenContainer.innerHTML = "";
     }
 
-    window.require.config({ paths: { 'vs': 'https://cdn.jsdelivr.net/npm/monaco-editor@0.49.0/min/vs' } });
-    window.require(['vs/editor/editor.main'], () => {
+    window.require.config({
+        paths: {
+            vs: "https://cdn.jsdelivr.net/npm/monaco-editor@0.49.0/min/vs",
+        },
+    });
+    window.require(["vs/editor/editor.main"], () => {
         try {
-            console.log('Creating Monaco editor...');
+            console.log("Creating Monaco editor...");
 
             // Get initial settings
-            const initialLanguage = document.getElementById('language-select')?.value || 'javascript';
-            const initialTheme = document.getElementById('theme-select')?.value || 'vs-dark';
-            const initialFontSize = parseInt(document.getElementById('font-size-select')?.value || '14');
+            const initialLanguage =
+                document.getElementById("language-select")?.value ||
+                "javascript";
+            const initialTheme =
+                document.getElementById("theme-select")?.value || "vs-dark";
+            const initialFontSize = parseInt(
+                document.getElementById("font-size-select")?.value || "14"
+            );
 
             // Enhanced editor configuration
             const editorConfig = {
@@ -725,34 +918,35 @@ console.log("Hello, World!");`,
                 theme: initialTheme,
                 automaticLayout: true,
                 fontSize: initialFontSize,
-                fontFamily: 'Fira Code, Cascadia Code, Monaco, "Courier New", monospace',
+                fontFamily:
+                    'Fira Code, Cascadia Code, Monaco, "Courier New", monospace',
                 fontLigatures: true,
-                lineNumbers: 'on',
+                lineNumbers: "on",
                 rulers: [80, 120],
-                wordWrap: 'off',
+                wordWrap: "off",
                 minimap: { enabled: true },
                 scrollBeyondLastLine: false,
                 smoothScrolling: true,
-                cursorBlinking: 'blink',
+                cursorBlinking: "blink",
                 cursorSmoothCaretAnimation: true,
                 contextmenu: true,
                 folding: true,
-                foldingStrategy: 'indentation',
-                showFoldingControls: 'always',
+                foldingStrategy: "indentation",
+                showFoldingControls: "always",
                 bracketPairColorization: { enabled: true },
                 guides: {
                     bracketPairs: true,
-                    indentation: true
+                    indentation: true,
                 },
                 suggest: {
                     showKeywords: true,
-                    showSnippets: true
+                    showSnippets: true,
                 },
                 quickSuggestions: {
                     other: true,
                     comments: true,
-                    strings: true
-                }
+                    strings: true,
+                },
             };
 
             // Create main editor
@@ -760,41 +954,43 @@ console.log("Hello, World!");`,
 
             // Create fullscreen editor with same config
             if (fullscreenContainer) {
-                window.fullscreenEditor = monaco.editor.create(fullscreenContainer, {
-                    ...editorConfig,
-                    value: ''
-                });
+                window.fullscreenEditor = monaco.editor.create(
+                    fullscreenContainer,
+                    {
+                        ...editorConfig,
+                        value: "",
+                    }
+                );
             }
 
-            console.log('Monaco editor created successfully');
+            console.log("Monaco editor created successfully");
 
             // Initialize editor controls and event listeners
             initEditorControls();
             initEditorEventListeners();
             updateEditorStatus();
             loadNotes();
-
         } catch (error) {
-            console.error('Error creating Monaco editor:', error);
+            console.error("Error creating Monaco editor:", error);
         }
     });
 }
 
 // Initialize editor controls and event handlers
 function initEditorControls() {
-    const languageSelect = document.getElementById('language-select');
-    const encodingSelect = document.getElementById('encoding-select');
-    const themeSelect = document.getElementById('theme-select');
-    const fontSizeSelect = document.getElementById('font-size-select');
+    const languageSelect = document.getElementById("language-select");
+    const encodingSelect = document.getElementById("encoding-select");
+    const themeSelect = document.getElementById("theme-select");
+    const fontSizeSelect = document.getElementById("font-size-select");
 
-    const fullscreenToggle = document.getElementById('fullscreen-toggle');
-    const wordWrapToggle = document.getElementById('word-wrap-toggle');
-    const minimapToggle = document.getElementById('minimap-toggle');
-    const formatCode = document.getElementById('format-code');
-    const exitFullscreen = document.getElementById('exit-fullscreen');
+    const fullscreenToggle = document.getElementById("fullscreen-toggle");
+    const wordWrapToggle = document.getElementById("word-wrap-toggle");
+    const minimapToggle = document.getElementById("minimap-toggle");
+    const formatCode = document.getElementById("format-code");
+    const exitFullscreen = document.getElementById("exit-fullscreen");
 
     // Language change handler
-    languageSelect?.addEventListener('change', (e) => {
+    languageSelect?.addEventListener("change", (e) => {
         const language = e.target.value;
         if (window.editor) {
             const model = window.editor.getModel();
@@ -808,20 +1004,21 @@ function initEditorControls() {
     });
 
     // Encoding change handler (visual feedback)
-    encodingSelect?.addEventListener('change', (e) => {
+    encodingSelect?.addEventListener("change", (e) => {
         const encoding = e.target.value;
-        document.getElementById('editor-encoding').textContent = encoding.toUpperCase();
+        document.getElementById("editor-encoding").textContent =
+            encoding.toUpperCase();
         showNotification(`Zmieniono kodowanie na: ${encoding.toUpperCase()}`);
     });
 
     // Theme change handler
-    themeSelect?.addEventListener('change', (e) => {
+    themeSelect?.addEventListener("change", (e) => {
         const theme = e.target.value;
         monaco.editor.setTheme(theme);
     });
 
     // Font size change handler
-    fontSizeSelect?.addEventListener('change', (e) => {
+    fontSizeSelect?.addEventListener("change", (e) => {
         const fontSize = parseInt(e.target.value);
         if (window.editor) {
             window.editor.updateOptions({ fontSize: fontSize });
@@ -832,14 +1029,16 @@ function initEditorControls() {
     });
 
     // Fullscreen toggle
-    fullscreenToggle?.addEventListener('click', () => {
+    fullscreenToggle?.addEventListener("click", () => {
         toggleFullscreenEditor();
     });
 
     // Word wrap toggle
-    wordWrapToggle?.addEventListener('click', (e) => {
-        const currentWrap = window.editor.getOption(monaco.editor.EditorOption.wordWrap);
-        const newWrap = currentWrap === 'off' ? 'on' : 'off';
+    wordWrapToggle?.addEventListener("click", (e) => {
+        const currentWrap = window.editor.getOption(
+            monaco.editor.EditorOption.wordWrap
+        );
+        const newWrap = currentWrap === "off" ? "on" : "off";
 
         if (window.editor) {
             window.editor.updateOptions({ wordWrap: newWrap });
@@ -848,45 +1047,55 @@ function initEditorControls() {
             window.fullscreenEditor.updateOptions({ wordWrap: newWrap });
         }
 
-        e.target.classList.toggle('active', newWrap === 'on');
-        showNotification(`Zawijanie wierszy: ${newWrap === 'on' ? 'włączone' : 'wyłączone'}`);
+        e.target.classList.toggle("active", newWrap === "on");
+        showNotification(
+            `Zawijanie wierszy: ${newWrap === "on" ? "włączone" : "wyłączone"}`
+        );
     });
 
     // Minimap toggle
-    minimapToggle?.addEventListener('click', (e) => {
-        const currentMinimap = window.editor.getOption(monaco.editor.EditorOption.minimap);
+    minimapToggle?.addEventListener("click", (e) => {
+        const currentMinimap = window.editor.getOption(
+            monaco.editor.EditorOption.minimap
+        );
         const newMinimapEnabled = !currentMinimap.enabled;
 
         if (window.editor) {
-            window.editor.updateOptions({ minimap: { enabled: newMinimapEnabled } });
+            window.editor.updateOptions({
+                minimap: { enabled: newMinimapEnabled },
+            });
         }
         if (window.fullscreenEditor) {
-            window.fullscreenEditor.updateOptions({ minimap: { enabled: newMinimapEnabled } });
+            window.fullscreenEditor.updateOptions({
+                minimap: { enabled: newMinimapEnabled },
+            });
         }
 
-        e.target.classList.toggle('active', newMinimapEnabled);
-        showNotification(`Minimapa: ${newMinimapEnabled ? 'włączona' : 'wyłączona'}`);
+        e.target.classList.toggle("active", newMinimapEnabled);
+        showNotification(
+            `Minimapa: ${newMinimapEnabled ? "włączona" : "wyłączona"}`
+        );
     });
 
     // Format code
-    formatCode?.addEventListener('click', () => {
+    formatCode?.addEventListener("click", () => {
         if (window.editor) {
-            window.editor.getAction('editor.action.formatDocument').run();
+            window.editor.getAction("editor.action.formatDocument").run();
         }
-        showNotification('Kod został sformatowany');
+        showNotification("Kod został sformatowany");
     });
 
     // Exit fullscreen
-    exitFullscreen?.addEventListener('click', () => {
-        console.log('Exit fullscreen button clicked');
+    exitFullscreen?.addEventListener("click", () => {
+        console.log("Exit fullscreen button clicked");
         toggleFullscreenEditor();
     });
 
     // Close fullscreen modal when clicking outside
-    const fullscreenModal = document.getElementById('editor-fullscreen-modal');
-    fullscreenModal?.addEventListener('click', (e) => {
+    const fullscreenModal = document.getElementById("editor-fullscreen-modal");
+    fullscreenModal?.addEventListener("click", (e) => {
         if (e.target === fullscreenModal) {
-            console.log('Clicked outside fullscreen modal');
+            console.log("Clicked outside fullscreen modal");
             toggleFullscreenEditor();
         }
     });
@@ -912,60 +1121,60 @@ function initEditorEventListeners() {
 
     // Focus/blur events for better UX
     window.editor.onDidFocusEditorText(() => {
-        const container = document.getElementById('monaco-editor-container');
-        if (container) container.style.borderColor = 'var(--accent-color)';
+        const container = document.getElementById("monaco-editor-container");
+        if (container) container.style.borderColor = "var(--accent-color)";
     });
 
     window.editor.onDidBlurEditorText(() => {
-        const container = document.getElementById('monaco-editor-container');
-        if (container) container.style.borderColor = 'var(--border-color)';
+        const container = document.getElementById("monaco-editor-container");
+        if (container) container.style.borderColor = "var(--border-color)";
     });
 
     // Add keyboard shortcuts
-    window.addEventListener('keydown', handleEditorKeyboard);
+    window.addEventListener("keydown", handleEditorKeyboard);
 }
 
 // Handle keyboard shortcuts for editor
 function handleEditorKeyboard(e) {
     // Only handle if we have focus on editor or modal
-    const modal = document.getElementById('myModal1');
-    if (!modal?.classList.contains('active')) return;
+    const modal = document.getElementById("myModal1");
+    if (!modal?.classList.contains("active")) return;
 
     // F11 - Toggle fullscreen
-    if (e.key === 'F11') {
+    if (e.key === "F11") {
         e.preventDefault();
         toggleFullscreenEditor();
         return;
     }
 
     // Escape - Exit fullscreen if in fullscreen mode
-    if (e.key === 'Escape' && isFullscreenMode()) {
+    if (e.key === "Escape" && isFullscreenMode()) {
         e.preventDefault();
         toggleFullscreenEditor();
         return;
     }
 
     // Ctrl+S - Save note
-    if (e.ctrlKey && e.key === 's') {
+    if (e.ctrlKey && e.key === "s") {
         e.preventDefault();
         saveNote();
         return;
     }
 
     // Ctrl+Shift+F - Format code
-    if (e.ctrlKey && e.shiftKey && e.key === 'F') {
+    if (e.ctrlKey && e.shiftKey && e.key === "F") {
         e.preventDefault();
         if (window.editor) {
-            window.editor.getAction('editor.action.formatDocument').run();
-            showNotification('Kod został sformatowany');
+            window.editor.getAction("editor.action.formatDocument").run();
+            showNotification("Kod został sformatowany");
         }
         return;
     }
 
     // Alt+W - Toggle word wrap
-    if (e.altKey && e.key === 'w') {
+    if (e.altKey && e.key === "w") {
         e.preventDefault();
-        const wordWrapToggle = document.getElementById('word-wrap-toggle');
+        const wordWrapToggle = document.getElementById("word-wrap-toggle");
         if (wordWrapToggle) {
             wordWrapToggle.click();
         }
@@ -973,9 +1182,9 @@ function handleEditorKeyboard(e) {
     }
 
     // Alt+M - Toggle minimap
-    if (e.altKey && e.key === 'm') {
+    if (e.altKey && e.key === "m") {
         e.preventDefault();
-        const minimapToggle = document.getElementById('minimap-toggle');
+        const minimapToggle = document.getElementById("minimap-toggle");
         if (minimapToggle) {
             minimapToggle.click();
         }
@@ -991,61 +1200,64 @@ function updateEditorStatus() {
     const model = window.editor.getModel();
     const language = model.getLanguageId();
     const lineCount = model.getLineCount();
-    const encoding = document.getElementById('encoding-select')?.value || 'utf-8';
+    const encoding =
+        document.getElementById("encoding-select")?.value || "utf-8";
 
-    document.getElementById('cursor-position').textContent = `Ln ${position.lineNumber}, Col ${position.column} (${lineCount} lines)`;
-    document.getElementById('editor-language').textContent = language.toUpperCase();
-    document.getElementById('editor-encoding').textContent = encoding.toUpperCase();
+    document.getElementById(
+        "cursor-position"
+    ).textContent = `Ln ${position.lineNumber}, Col ${position.column} (${lineCount} lines)`;
+    document.getElementById("editor-language").textContent =
+        language.toUpperCase();
+    document.getElementById("editor-encoding").textContent =
+        encoding.toUpperCase();
 }
 
 // Toggle fullscreen editor mode
 function toggleFullscreenEditor() {
-    const fullscreenModal = document.getElementById('editor-fullscreen-modal');
-    const exitButton = document.getElementById('exit-fullscreen');
-    const fullscreenContainer = document.getElementById('monaco-editor-fullscreen');
+    const fullscreenModal = document.getElementById("editor-fullscreen-modal");
+    const exitButton = document.getElementById("exit-fullscreen");
+    const fullscreenContainer = document.getElementById(
+        "monaco-editor-fullscreen"
+    );
 
-    console.log('🔄 toggleFullscreenEditor called');
-    console.log('📦 fullscreenModal:', fullscreenModal);
-    console.log('🚪 exitButton:', exitButton);
-    console.log('💻 fullscreenContainer:', fullscreenContainer);
-    console.log('🎯 window.fullscreenEditor:', window.fullscreenEditor);
-    console.log('📝 window.editor:', window.editor);
+    console.log("🔄 toggleFullscreenEditor called");
+    console.log("📦 fullscreenModal:", fullscreenModal);
+    console.log("🚪 exitButton:", exitButton);
+    console.log("💻 fullscreenContainer:", fullscreenContainer);
+    console.log("🎯 window.fullscreenEditor:", window.fullscreenEditor);
+    console.log("📝 window.editor:", window.editor);
 
     if (!fullscreenModal) {
-        console.error('Fullscreen modal not found');
+        console.error("Fullscreen modal not found");
         return;
     }
 
     if (isFullscreenMode()) {
-        console.log('Exiting fullscreen mode');
+        console.log("Exiting fullscreen mode");
         // Exit fullscreen
-        fullscreenModal.classList.remove('active');
-
-
+        fullscreenModal.classList.remove("active");
 
         // Sync back to main editor
         if (window.editor && window.fullscreenEditor) {
             window.editor.setValue(window.fullscreenEditor.getValue());
             window.editor.focus();
         }
-        showNotification('Wyszedłeś z trybu pełnoekranowego');
+        showNotification("Wyszedłeś z trybu pełnoekranowego");
     } else {
-        console.log('Entering fullscreen mode');
+        console.log("Entering fullscreen mode");
         // Enter fullscreen
         if (window.fullscreenEditor && window.editor) {
             window.fullscreenEditor.setValue(window.editor.getValue());
-            fullscreenModal.classList.add('active');
+            fullscreenModal.classList.add("active");
 
             // Ensure exit button is visible and properly styled
             if (exitButton) {
-                exitButton.style.display = 'flex';
-                exitButton.style.visibility = 'visible';
-                exitButton.style.opacity = '1';
-                exitButton.style.zIndex = '10001';
-                console.log('Exit button made visible');
+                exitButton.style.display = "flex";
+                exitButton.style.visibility = "visible";
+                exitButton.style.opacity = "1";
+                exitButton.style.zIndex = "10001";
+                console.log("Exit button made visible");
             }
-
-
 
             // Focus fullscreen editor after animation
             setTimeout(() => {
@@ -1053,26 +1265,26 @@ function toggleFullscreenEditor() {
                 window.fullscreenEditor.layout();
             }, 300);
 
-            showNotification('Tryb pełnoekranowy aktywny - naciśnij Escape lub przycisk Zamknij aby wyjść');
+            showNotification(
+                "Tryb pełnoekranowy aktywny - naciśnij Escape lub przycisk Zamknij aby wyjść"
+            );
         } else {
-            console.error('Fullscreen editor not initialized properly');
+            console.error("Fullscreen editor not initialized properly");
         }
     }
 }
 
 // Check if in fullscreen mode
 function isFullscreenMode() {
-    const fullscreenModal = document.getElementById('editor-fullscreen-modal');
-    return fullscreenModal?.classList.contains('active') || false;
+    const fullscreenModal = document.getElementById("editor-fullscreen-modal");
+    return fullscreenModal?.classList.contains("active") || false;
 }
-
-
 
 // Show notification helper
 function showNotification(message) {
     // Create a simple notification
-    const notification = document.createElement('div');
-    notification.className = 'editor-notification';
+    const notification = document.createElement("div");
+    notification.className = "editor-notification";
     notification.textContent = message;
     notification.style.cssText = `
         position: fixed;
@@ -1093,14 +1305,14 @@ function showNotification(message) {
 
     // Animate in
     setTimeout(() => {
-        notification.style.opacity = '1';
-        notification.style.transform = 'translateX(0)';
+        notification.style.opacity = "1";
+        notification.style.transform = "translateX(0)";
     }, 10);
 
     // Remove after 3 seconds
     setTimeout(() => {
-        notification.style.opacity = '0';
-        notification.style.transform = 'translateX(100%)';
+        notification.style.opacity = "0";
+        notification.style.transform = "translateX(100%)";
         setTimeout(() => {
             document.body.removeChild(notification);
         }, 300);
@@ -1109,7 +1321,14 @@ function showNotification(message) {
 
 // --- GEMINI API HELPERS ---
 
-async function runAi(prompt, modelElementId, loadingElementId, outputElementId, systemInstruction, maxRetries = 3) {
+async function runAi(
+    prompt,
+    modelElementId,
+    loadingElementId,
+    outputElementId,
+    systemInstruction,
+    maxRetries = 3
+) {
     const modelSelect = document.getElementById(modelElementId);
     const loadingIndicator = document.getElementById(loadingElementId);
     const outputElement = document.getElementById(outputElementId);
@@ -1118,14 +1337,19 @@ async function runAi(prompt, modelElementId, loadingElementId, outputElementId, 
 
     // Check if AI is initialized
     if (!ai) {
-        showErrorModal('Błąd AI', 'Klucz API nie został skonfigurowany. Wprowadź prawidłowy klucz API Google GenAI.', 'Przejdź do pola klucza API w górnej części strony.');
+        showErrorModal(
+            "Błąd AI",
+            "Klucz API nie został skonfigurowany. Wprowadź prawidłowy klucz API Google GenAI.",
+            "Przejdź do pola klucza API w górnej części strony."
+        );
         return;
     }
 
     // Enhanced loading indicator
-    loadingIndicator.style.display = 'block';
-    loadingIndicator.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generowanie odpowiedzi AI...';
-    outputElement.innerHTML = '';
+    loadingIndicator.style.display = "block";
+    loadingIndicator.innerHTML =
+        '<i class="fas fa-spinner fa-spin"></i> Generowanie odpowiedzi AI...';
+    outputElement.innerHTML = "";
 
     let attempt = 0;
 
@@ -1140,7 +1364,13 @@ async function runAi(prompt, modelElementId, loadingElementId, outputElementId, 
 
             // Timeout promise
             const timeoutPromise = new Promise((_, reject) => {
-                setTimeout(() => reject(new Error('Timeout - zapytanie trwało zbyt długo')), 30000);
+                setTimeout(
+                    () =>
+                        reject(
+                            new Error("Timeout - zapytanie trwało zbyt długo")
+                        ),
+                    30000
+                );
             });
 
             // Get the model
@@ -1148,10 +1378,18 @@ async function runAi(prompt, modelElementId, loadingElementId, outputElementId, 
 
             // AI request promise
             const aiPromise = model.generateContent({
-                contents: [{
-                    role: 'user',
-                    parts: [{ text: systemInstruction ? `${systemInstruction}\n\n${prompt}` : prompt }]
-                }],
+                contents: [
+                    {
+                        role: "user",
+                        parts: [
+                            {
+                                text: systemInstruction
+                                    ? `${systemInstruction}\n\n${prompt}`
+                                    : prompt,
+                            },
+                        ],
+                    },
+                ],
                 generationConfig: {
                     temperature: 0.7,
                     topK: 40,
@@ -1165,80 +1403,103 @@ async function runAi(prompt, modelElementId, loadingElementId, outputElementId, 
 
             // Success - format and display response
             const responseText = response.response.text();
-            const formattedText = responseText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                .replace(/\*(.*?)\*/g, '<em>$1</em>')
-                .replace(/```(\w*)\n([\s\S]*?)```/g, '<pre><code class="language-$1">$2</code></pre>')
-                .replace(/\n/g, '<br>');
+            const formattedText = responseText
+                .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+                .replace(/\*(.*?)\*/g, "<em>$1</em>")
+                .replace(
+                    /```(\w*)\n([\s\S]*?)```/g,
+                    '<pre><code class="language-$1">$2</code></pre>'
+                )
+                .replace(/\n/g, "<br>");
 
             outputElement.innerHTML = formattedText;
 
             // Apply syntax highlighting if code blocks exist
-            const codeBlocks = outputElement.querySelectorAll('pre code');
-            codeBlocks.forEach(block => {
+            const codeBlocks = outputElement.querySelectorAll("pre code");
+            codeBlocks.forEach((block) => {
                 // Simple syntax highlighting for common languages
                 highlightCode(block);
             });
 
             break; // Success, break out of retry loop
-
         } catch (error) {
             console.error(`AI Error (attempt ${attempt}):`, error);
 
             if (attempt >= maxRetries) {
                 // All retries exhausted
-                let errorMessage = 'Wystąpił błąd podczas generowania odpowiedzi AI.';
+                let errorMessage =
+                    "Wystąpił błąd podczas generowania odpowiedzi AI.";
 
-                if (error.message.includes('Timeout')) {
-                    errorMessage = 'Zapytanie przekroczyło limit czasu. Spróbuj ponownie z krótszym promptem.';
-                } else if (error.message.includes('quota')) {
-                    errorMessage = 'Osiągnięto limit API. Spróbuj ponownie później.';
-                } else if (error.message.includes('safety')) {
-                    errorMessage = 'Treść została zablokowana ze względów bezpieczeństwa. Spróbuj przeformułować zapytanie.';
+                if (error.message.includes("Timeout")) {
+                    errorMessage =
+                        "Zapytanie przekroczyło limit czasu. Spróbuj ponownie z krótszym promptem.";
+                } else if (error.message.includes("quota")) {
+                    errorMessage =
+                        "Osiągnięto limit API. Spróbuj ponownie później.";
+                } else if (error.message.includes("safety")) {
+                    errorMessage =
+                        "Treść została zablokowana ze względów bezpieczeństwa. Spróbuj przeformułować zapytanie.";
                 }
 
                 // Show error modal instead of inline error
-                showErrorModal('Błąd AI', errorMessage, `Szczegóły: ${error.message}`);
+                showErrorModal(
+                    "Błąd AI",
+                    errorMessage,
+                    `Szczegóły: ${error.message}`
+                );
             } else {
                 // Wait before retry
-                await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
+                await new Promise((resolve) =>
+                    setTimeout(resolve, 1000 * attempt)
+                );
             }
         }
     }
 
-    loadingIndicator.style.display = 'none';
+    loadingIndicator.style.display = "none";
 }
 
 // Simple syntax highlighting function
 function highlightCode(codeElement) {
     const code = codeElement.textContent;
-    const language = codeElement.className.replace('language-', '') || 'javascript';
+    const language =
+        codeElement.className.replace("language-", "") || "javascript";
 
     let highlightedCode = code;
 
     // Basic syntax highlighting patterns
     const patterns = {
         javascript: [
-            { regex: /\b(function|const|let|var|if|else|for|while|return|import|export|class|extends)\b/g, class: 'keyword' },
-            { regex: /"([^"\\]|\\.)*"/g, class: 'string' },
-            { regex: /'([^'\\]|\\.)*'/g, class: 'string' },
-            { regex: /\/\/.*$/gm, class: 'comment' },
-            { regex: /\/\*[\s\S]*?\*\//g, class: 'comment' }
+            {
+                regex: /\b(function|const|let|var|if|else|for|while|return|import|export|class|extends)\b/g,
+                class: "keyword",
+            },
+            { regex: /"([^"\\]|\\.)*"/g, class: "string" },
+            { regex: /'([^'\\]|\\.)*'/g, class: "string" },
+            { regex: /\/\/.*$/gm, class: "comment" },
+            { regex: /\/\*[\s\S]*?\*\//g, class: "comment" },
         ],
         python: [
-            { regex: /\b(def|class|if|elif|else|for|while|import|from|return|try|except|with|as)\b/g, class: 'keyword' },
-            { regex: /"([^"\\]|\\.)*"/g, class: 'string' },
-            { regex: /'([^'\\]|\\.)*'/g, class: 'string' },
-            { regex: /#.*$/gm, class: 'comment' }
+            {
+                regex: /\b(def|class|if|elif|else|for|while|import|from|return|try|except|with|as)\b/g,
+                class: "keyword",
+            },
+            { regex: /"([^"\\]|\\.)*"/g, class: "string" },
+            { regex: /'([^'\\]|\\.)*'/g, class: "string" },
+            { regex: /#.*$/gm, class: "comment" },
         ],
         html: [
-            { regex: /<\/?[\w\s="/.':;#-\/\?]+>/g, class: 'tag' },
-            { regex: /<!--[\s\S]*?-->/g, class: 'comment' }
-        ]
+            { regex: /<\/?[\w\s="/.':;#-\/\?]+>/g, class: "tag" },
+            { regex: /<!--[\s\S]*?-->/g, class: "comment" },
+        ],
     };
 
     if (patterns[language]) {
-        patterns[language].forEach(pattern => {
-            highlightedCode = highlightedCode.replace(pattern.regex, `<span class="highlight-${pattern.class}">$&</span>`);
+        patterns[language].forEach((pattern) => {
+            highlightedCode = highlightedCode.replace(
+                pattern.regex,
+                `<span class="highlight-${pattern.class}">$&</span>`
+            );
         });
         codeElement.innerHTML = highlightedCode;
     }
@@ -1255,43 +1516,82 @@ function parseJsonFromMarkdown(text) {
         return JSON.parse(jsonStr);
     } catch (e) {
         console.error("Failed to parse JSON response:", e);
-        throw new Error("Nie udało się przetworzyć odpowiedzi AI. Odpowiedź nie była w formacie JSON.");
+        throw new Error(
+            "Nie udało się przetworzyć odpowiedzi AI. Odpowiedź nie była w formacie JSON."
+        );
     }
 }
 
 // --- MODAL-SPECIFIC FUNCTIONALITY ---
 
 function initNotepadModal() {
-    document.getElementById('save-note-button')?.addEventListener('click', saveNote);
-    document.getElementById('summarize-note-button')?.addEventListener('click', () => {
-        const content = getCurrentEditorContent();
-        if (!content.trim()) {
-            showErrorModal('Błąd', 'Edytor jest pusty. Napisz coś, aby to podsumować.');
-            return;
-        }
-        runAi(content, 'ai-model-select-1', 'loading-indicator-1', 'translation-output', 'Podsumuj ten tekst w kilku kluczowych punktach.');
-    });
-    document.getElementById('expand-note-button')?.addEventListener('click', () => {
-        const content = getCurrentEditorContent();
-        if (!content.trim()) {
-            showErrorModal('Błąd', 'Edytor jest pusty. Napisz coś, aby to rozwinąć.');
-            return;
-        }
-        runAi(content, 'ai-model-select-1', 'loading-indicator-1', 'translation-output', 'Rozwiń ten temat, dodając więcej szczegółów i kontekstu.');
-    });
-    document.getElementById('translate-note-button')?.addEventListener('click', () => {
-        const content = getCurrentEditorContent();
-        if (!content.trim()) {
-            showErrorModal('Błąd', 'Edytor jest pusty. Napisz coś, aby to przetłumaczyć.');
-            return;
-        }
-        const lang = document.getElementById('translation-language-select').value;
-        runAi(content, 'ai-model-select-1', 'loading-indicator-1', 'translation-output', `Przetłumacz ten tekst na język ${lang}.`);
-    });
+    document
+        .getElementById("save-note-button")
+        ?.addEventListener("click", saveNote);
+    document
+        .getElementById("summarize-note-button")
+        ?.addEventListener("click", () => {
+            const content = getCurrentEditorContent();
+            if (!content.trim()) {
+                showErrorModal(
+                    "Błąd",
+                    "Edytor jest pusty. Napisz coś, aby to podsumować."
+                );
+                return;
+            }
+            runAi(
+                content,
+                "ai-model-select-1",
+                "loading-indicator-1",
+                "translation-output",
+                "Podsumuj ten tekst w kilku kluczowych punktach."
+            );
+        });
+    document
+        .getElementById("expand-note-button")
+        ?.addEventListener("click", () => {
+            const content = getCurrentEditorContent();
+            if (!content.trim()) {
+                showErrorModal(
+                    "Błąd",
+                    "Edytor jest pusty. Napisz coś, aby to rozwinąć."
+                );
+                return;
+            }
+            runAi(
+                content,
+                "ai-model-select-1",
+                "loading-indicator-1",
+                "translation-output",
+                "Rozwiń ten temat, dodając więcej szczegółów i kontekstu."
+            );
+        });
+    document
+        .getElementById("translate-note-button")
+        ?.addEventListener("click", () => {
+            const content = getCurrentEditorContent();
+            if (!content.trim()) {
+                showErrorModal(
+                    "Błąd",
+                    "Edytor jest pusty. Napisz coś, aby to przetłumaczyć."
+                );
+                return;
+            }
+            const lang = document.getElementById(
+                "translation-language-select"
+            ).value;
+            runAi(
+                content,
+                "ai-model-select-1",
+                "loading-indicator-1",
+                "translation-output",
+                `Przetłumacz ten tekst na język ${lang}.`
+            );
+        });
 }
 
 function initApiModal() {
-    console.log('Initializing API modal...');
+    console.log("Initializing API modal...");
     // API modal initialization is handled by initApiKey() function
     // This function is here for consistency with other modal initializations
 }
@@ -1303,7 +1603,7 @@ function getCurrentEditorContent() {
     } else if (window.editor) {
         return window.editor.getValue();
     }
-    return '';
+    return "";
 }
 
 // Helper function to set content in current active editor
@@ -1318,34 +1618,36 @@ function setCurrentEditorContent(content) {
 function saveNote() {
     const content = getCurrentEditorContent();
     if (!content.trim()) {
-        showErrorModal('Błąd', 'Nie można zapisać pustej notatki.');
+        showErrorModal("Błąd", "Nie można zapisać pustej notatki.");
         return;
     }
-    const notes = JSON.parse(localStorage.getItem('notes') || '[]');
-    const noteTitle = content.split('\n')[0].substring(0, 40) || 'Nowa notatka';
-    const timestamp = new Date().toLocaleString('pl-PL');
+    const notes = JSON.parse(localStorage.getItem("notes") || "[]");
+    const noteTitle = content.split("\n")[0].substring(0, 40) || "Nowa notatka";
+    const timestamp = new Date().toLocaleString("pl-PL");
     notes.push({
         title: noteTitle,
         content: content,
         id: Date.now(),
         timestamp: timestamp,
-        language: document.getElementById('language-select')?.value || 'javascript'
+        language:
+            document.getElementById("language-select")?.value || "javascript",
     });
-    localStorage.setItem('notes', JSON.stringify(notes));
+    localStorage.setItem("notes", JSON.stringify(notes));
     loadNotes();
     showNotification(`Notatka "${noteTitle}" została zapisana`);
 }
 
 function loadNotes() {
-    const notes = JSON.parse(localStorage.getItem('notes') || '[]');
-    const listEl = document.getElementById('saved-notes-list');
+    const notes = JSON.parse(localStorage.getItem("notes") || "[]");
+    const listEl = document.getElementById("saved-notes-list");
 
     if (!listEl) return;
 
-    listEl.innerHTML = '';
+    listEl.innerHTML = "";
 
     if (notes.length === 0) {
-        listEl.innerHTML = '<div style="text-align: center; color: var(--text-muted); padding: var(--spacing-md); font-size: 12px;">🗒️<br>Brak zapisanych notatek</div>';
+        listEl.innerHTML =
+            '<div style="text-align: center; color: var(--text-muted); padding: var(--spacing-md); font-size: 12px;">🗒️<br>Brak zapisanych notatek</div>';
         return;
     }
 
@@ -1353,35 +1655,41 @@ function loadNotes() {
     notes.sort((a, b) => b.id - a.id);
 
     notes.forEach((note) => {
-        const item = document.createElement('div');
-        item.className = 'saved-note-item';
+        const item = document.createElement("div");
+        item.className = "saved-note-item";
 
-        const noteHeader = document.createElement('div');
-        noteHeader.className = 'note-header';
+        const noteHeader = document.createElement("div");
+        noteHeader.className = "note-header";
         noteHeader.innerHTML = `
             <div class="note-title">${note.title}</div>
             <div class="note-meta">
-                <span class="note-language">${(note.language || 'javascript').toUpperCase()}</span>
-                ${note.timestamp ? `<span class="note-timestamp">${note.timestamp}</span>` : ''}
+                <span class="note-language">${(
+                    note.language || "javascript"
+                ).toUpperCase()}</span>
+                ${
+                    note.timestamp
+                        ? `<span class="note-timestamp">${note.timestamp}</span>`
+                        : ""
+                }
             </div>
         `;
 
-        const actions = document.createElement('div');
-        actions.className = 'note-actions';
+        const actions = document.createElement("div");
+        actions.className = "note-actions";
 
-        const loadBtn = document.createElement('button');
+        const loadBtn = document.createElement("button");
         loadBtn.innerHTML = '<i class="fas fa-file-import"></i>';
-        loadBtn.className = 'load-note-btn';
-        loadBtn.title = 'Załaduj notatkę';
+        loadBtn.className = "load-note-btn";
+        loadBtn.title = "Załaduj notatkę";
         loadBtn.onclick = (e) => {
             e.stopPropagation();
             loadNoteContent(note);
         };
 
-        const deleteBtn = document.createElement('button');
+        const deleteBtn = document.createElement("button");
         deleteBtn.innerHTML = '<i class="fas fa-trash"></i>';
-        deleteBtn.className = 'delete-note-btn';
-        deleteBtn.title = 'Usuń notatkę';
+        deleteBtn.className = "delete-note-btn";
+        deleteBtn.title = "Usuń notatkę";
         deleteBtn.onclick = (e) => {
             e.stopPropagation();
             deleteNote(note.id);
@@ -1406,11 +1714,11 @@ function loadNoteContent(note) {
 
     // Set language if available
     if (note.language) {
-        const languageSelect = document.getElementById('language-select');
+        const languageSelect = document.getElementById("language-select");
         if (languageSelect) {
             languageSelect.value = note.language;
             // Trigger change event to update editor
-            languageSelect.dispatchEvent(new Event('change'));
+            languageSelect.dispatchEvent(new Event("change"));
         }
     }
 
@@ -1418,98 +1726,130 @@ function loadNoteContent(note) {
 }
 
 function deleteNote(id) {
-    let notes = JSON.parse(localStorage.getItem('notes') || '[]');
+    let notes = JSON.parse(localStorage.getItem("notes") || "[]");
     notes = notes.filter((note) => note.id !== id);
-    localStorage.setItem('notes', JSON.stringify(notes));
+    localStorage.setItem("notes", JSON.stringify(notes));
     loadNotes();
 }
 
 async function initQuickLinksModal() {
-    document.getElementById('suggest-links-button')?.addEventListener('click', async () => {
-        const input = document.getElementById('link-suggestion-input').value;
-        const loadingIndicator = document.getElementById('loading-indicator-2');
-        const outputElement = document.getElementById('suggested-links-output');
+    document
+        .getElementById("suggest-links-button")
+        ?.addEventListener("click", async () => {
+            const input = document.getElementById(
+                "link-suggestion-input"
+            ).value;
+            const loadingIndicator = document.getElementById(
+                "loading-indicator-2"
+            );
+            const outputElement = document.getElementById(
+                "suggested-links-output"
+            );
 
-        const prompt = `Zasugeruj 5 przydatnych linków na temat "${input}". Zwróć jako tablicę obiektów JSON z kluczami "title" i "url".`;
+            const prompt = `Zasugeruj 5 przydatnych linków na temat "${input}". Zwróć jako tablicę obiektów JSON z kluczami "title" i "url".`;
 
-        loadingIndicator.style.display = 'block';
-        outputElement.innerHTML = '';
+            loadingIndicator.style.display = "block";
+            outputElement.innerHTML = "";
 
-        try {
-            const response = await ai.models.generateContent({
-                model: 'gemini-2.5-flash-preview-04-17',
-                contents: prompt,
-                config: { responseMimeType: "application/json" }
-            });
+            try {
+                const response = await ai.models.generateContent({
+                    model: "gemini-2.5-flash-preview-04-17",
+                    contents: prompt,
+                    config: { responseMimeType: "application/json" },
+                });
 
-            const links = parseJsonFromMarkdown(response.text);
-            if (Array.isArray(links)) {
-                outputElement.innerHTML = links.map(link =>
-                    `<a href="${link.url}" target="_blank" rel="noopener noreferrer">${link.title}</a>`
-                ).join('');
-            } else {
-                outputElement.innerText = "Otrzymano nieprawidłowy format danych.";
+                const links = parseJsonFromMarkdown(response.text);
+                if (Array.isArray(links)) {
+                    outputElement.innerHTML = links
+                        .map(
+                            (link) =>
+                                `<a href="${link.url}" target="_blank" rel="noopener noreferrer">${link.title}</a>`
+                        )
+                        .join("");
+                } else {
+                    outputElement.innerText =
+                        "Otrzymano nieprawidłowy format danych.";
+                }
+            } catch (error) {
+                console.error("AI Error:", error);
+                outputElement.innerText = `Wystąpił błąd: ${error}`;
+            } finally {
+                loadingIndicator.style.display = "none";
             }
-        } catch (error) {
-            console.error("AI Error:", error);
-            outputElement.innerText = `Wystąpił błąd: ${error}`;
-        } finally {
-            loadingIndicator.style.display = 'none';
-        }
-    });
+        });
 }
 
 function initAddonsModal() {
-    document.getElementById('suggest-extension-button')?.addEventListener('click', () => {
-        const idea = document.getElementById('extension-idea-input').value;
-        const prompt = `Rozwiń ten pomysł na rozszerzenie przeglądarki: "${idea}". Opisz jego główne funkcje, grupę docelową i zaproponuj chwytliwą nazwę. Sformatuj odpowiedź używając nagłówków markdown.`;
-        runAi(prompt, 'ai-model-select-3', 'loading-indicator-3', 'extension-suggestion-output');
-    });
+    document
+        .getElementById("suggest-extension-button")
+        ?.addEventListener("click", () => {
+            const idea = document.getElementById("extension-idea-input").value;
+            const prompt = `Rozwiń ten pomysł na rozszerzenie przeglądarki: "${idea}". Opisz jego główne funkcje, grupę docelową i zaproponuj chwytliwą nazwę. Sformatuj odpowiedź używając nagłówków markdown.`;
+            runAi(
+                prompt,
+                "ai-model-select-3",
+                "loading-indicator-3",
+                "extension-suggestion-output"
+            );
+        });
 }
 
 function initUiOptimizationModal() {
-    document.getElementById('suggest-ui-optimization-button')?.addEventListener('click', () => {
-        const idea = document.getElementById('ui-optimization-input').value;
-        const prompt = `Zaproponuj konkretne sugestie optymalizacji UI/UX dla następującego problemu: "${idea}". Skup się na praktycznych, możliwych do wdrożenia zmianach.`;
-        runAi(prompt, 'ai-model-select-4', 'loading-indicator-4', 'ui-optimization-output');
-    });
+    document
+        .getElementById("suggest-ui-optimization-button")
+        ?.addEventListener("click", () => {
+            const idea = document.getElementById("ui-optimization-input").value;
+            const prompt = `Zaproponuj konkretne sugestie optymalizacji UI/UX dla następującego problemu: "${idea}". Skup się na praktycznych, możliwych do wdrożenia zmianach.`;
+            runAi(
+                prompt,
+                "ai-model-select-4",
+                "loading-indicator-4",
+                "ui-optimization-output"
+            );
+        });
 }
 
 async function initCardGeneratorModal() {
-    document.getElementById('generate-card-content-button')?.addEventListener('click', async () => {
-        const topic = document.getElementById('card-topic-input').value;
-        const loadingIndicator = document.getElementById('loading-indicator-5');
-        const outputElement = document.getElementById('card-generator-output');
+    document
+        .getElementById("generate-card-content-button")
+        ?.addEventListener("click", async () => {
+            const topic = document.getElementById("card-topic-input").value;
+            const loadingIndicator = document.getElementById(
+                "loading-indicator-5"
+            );
+            const outputElement = document.getElementById(
+                "card-generator-output"
+            );
 
-        const prompt = `Wygeneruj treść dla karty informacyjnej na temat "${topic}". Podaj krótki, chwytliwy tytuł (max 5 słów) i jednozdaniowy opis (max 20 słów). Zwróć jako obiekt JSON z kluczami "title" i "description".`;
+            const prompt = `Wygeneruj treść dla karty informacyjnej na temat "${topic}". Podaj krótki, chwytliwy tytuł (max 5 słów) i jednozdaniowy opis (max 20 słów). Zwróć jako obiekt JSON z kluczami "title" i "description".`;
 
-        loadingIndicator.style.display = 'block';
-        outputElement.innerHTML = '';
+            loadingIndicator.style.display = "block";
+            outputElement.innerHTML = "";
 
-        try {
-            const response = await ai.models.generateContent({
-                model: 'gemini-2.5-flash-preview-04-17',
-                contents: prompt,
-                config: { responseMimeType: "application/json" }
-            });
-            const card = parseJsonFromMarkdown(response.text);
-            outputElement.innerHTML = `<h3>${card.title}</h3><p>${card.description}</p>`;
-        } catch (error) {
-            console.error("AI Error:", error);
-            outputElement.innerText = `Wystąpił błąd: ${error}`;
-        } finally {
-            loadingIndicator.style.display = 'none';
-        }
-    });
+            try {
+                const response = await ai.models.generateContent({
+                    model: "gemini-2.5-flash-preview-04-17",
+                    contents: prompt,
+                    config: { responseMimeType: "application/json" },
+                });
+                const card = parseJsonFromMarkdown(response.text);
+                outputElement.innerHTML = `<h3>${card.title}</h3><p>${card.description}</p>`;
+            } catch (error) {
+                console.error("AI Error:", error);
+                outputElement.innerText = `Wystąpił błąd: ${error}`;
+            } finally {
+                loadingIndicator.style.display = "none";
+            }
+        });
 }
 
 function initChatModal() {
-    const sendButton = document.getElementById('send-chat-button');
-    const chatInput = document.getElementById('chat-input');
+    const sendButton = document.getElementById("send-chat-button");
+    const chatInput = document.getElementById("chat-input");
 
-    sendButton?.addEventListener('click', handleChatMessage);
-    chatInput?.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' && !e.shiftKey) {
+    sendButton?.addEventListener("click", handleChatMessage);
+    chatInput?.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" && !e.shiftKey) {
             e.preventDefault();
             handleChatMessage();
         }
@@ -1517,46 +1857,54 @@ function initChatModal() {
 }
 
 async function handleChatMessage() {
-    const chatInput = document.getElementById('chat-input');
-    const messagesContainer = document.getElementById('chat-messages');
-    const loadingIndicator = document.getElementById('loading-indicator-6');
-    const modelSelect = document.getElementById('ai-model-select-6');
+    const chatInput = document.getElementById("chat-input");
+    const messagesContainer = document.getElementById("chat-messages");
+    const loadingIndicator = document.getElementById("loading-indicator-6");
+    const modelSelect = document.getElementById("ai-model-select-6");
 
     const message = chatInput.value.trim();
     if (!message) return;
 
     // Display user message with improved formatting
-    const userMessageDiv = document.createElement('div');
-    userMessageDiv.className = 'message user-message';
-    userMessageDiv.innerHTML = escapeHtml(message).replace(/\n/g, '<br>');
+    const userMessageDiv = document.createElement("div");
+    userMessageDiv.className = "message user-message";
+    userMessageDiv.innerHTML = escapeHtml(message).replace(/\n/g, "<br>");
     messagesContainer.appendChild(userMessageDiv);
 
-    chatInput.value = '';
+    chatInput.value = "";
     messagesContainer.scrollTop = messagesContainer.scrollHeight;
 
     // Enhanced loading indicator
-    loadingIndicator.style.display = 'block';
-    loadingIndicator.innerHTML = '<i class="fas fa-robot fa-spin"></i> AI myśli...';
+    loadingIndicator.style.display = "block";
+    loadingIndicator.innerHTML =
+        '<i class="fas fa-robot fa-spin"></i> AI myśli...';
 
     try {
         // Use the enhanced runAi function for better error handling
-        const tempOutputId = 'temp-chat-output-' + Date.now();
-        const tempDiv = document.createElement('div');
+        const tempOutputId = "temp-chat-output-" + Date.now();
+        const tempDiv = document.createElement("div");
         tempDiv.id = tempOutputId;
-        tempDiv.style.display = 'none';
+        tempDiv.style.display = "none";
         document.body.appendChild(tempDiv);
 
         // Enhanced system instruction for chat
-        const systemInstruction = `Jesteś pomocnym asystentem AI. Odpowiadaj w języku polskim, chyba że użytkownik prosi o inny język. 
+        const systemInstruction = `Jesteś pomocnym asystentem AI. Odpowiadaj w języku polskim, chyba że użytkownik prosi o inny język. 
         Bądź przyjazny, konkretny i pomocny. Jeśli nie znasz odpowiedzi, szczerze to przyznaj.
         Formatuj swoje odpowiedzi używając markdown gdy to może pomóc w czytelności.`;
 
-        await runAi(message, 'ai-model-select-6', 'loading-indicator-6', tempOutputId, systemInstruction);
+        await runAi(
+            message,
+            "ai-model-select-6",
+            "loading-indicator-6",
+            tempOutputId,
+            systemInstruction
+        );
 
         // Transfer the response to chat
-        const aiMessageDiv = document.createElement('div');
-        aiMessageDiv.className = 'message ai-message';
-        aiMessageDiv.innerHTML = tempDiv.innerHTML || 'Nie udało się wygenerować odpowiedzi.';
+        const aiMessageDiv = document.createElement("div");
+        aiMessageDiv.className = "message ai-message";
+        aiMessageDiv.innerHTML =
+            tempDiv.innerHTML || "Nie udało się wygenerować odpowiedzi.";
         messagesContainer.appendChild(aiMessageDiv);
 
         // Clean up temp element
@@ -1565,25 +1913,28 @@ async function handleChatMessage() {
         // Add message to chat history for context
         if (!window.chatHistory) window.chatHistory = [];
         window.chatHistory.push({
-            role: 'user',
-            content: message
+            role: "user",
+            content: message,
         });
         window.chatHistory.push({
-            role: 'assistant',
-            content: aiMessageDiv.textContent || aiMessageDiv.innerText
+            role: "assistant",
+            content: aiMessageDiv.textContent || aiMessageDiv.innerText,
         });
 
         // Keep only last 10 exchanges to manage context length
         if (window.chatHistory.length > 20) {
             window.chatHistory = window.chatHistory.slice(-20);
         }
-
     } catch (error) {
         console.error("Chat Error:", error);
         // Show error modal for chat errors
-        showErrorModal('Błąd czatu', 'Wystąpił problem z połączeniem AI.', `Szczegóły: ${error.message}`);
+        showErrorModal(
+            "Błąd czatu",
+            "Wystąpił problem z połączeniem AI.",
+            `Szczegóły: ${error.message}`
+        );
     } finally {
-        loadingIndicator.style.display = 'none';
+        loadingIndicator.style.display = "none";
         messagesContainer.scrollTop = messagesContainer.scrollHeight;
     }
 }
@@ -1591,24 +1942,33 @@ async function handleChatMessage() {
 // Helper function to escape HTML
 function escapeHtml(text) {
     const map = {
-        '&': '&amp;',
-        '<': '&lt;',
-        '>': '&gt;',
-        '"': '&quot;',
-        "'": '&#039;'
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;",
     };
-    return text.replace(/[&<>"']/g, function (m) { return map[m]; });
+    return text.replace(/[&<>"']/g, function (m) {
+        return map[m];
+    });
 }
 
 async function initCodeGeneratorModal() {
-    document.getElementById('generate-code-button')?.addEventListener('click', async () => {
-        const description = document.getElementById('code-description-input').value;
-        if (!description.trim()) {
-            showErrorModal('Błąd walidacji', 'Proszę podaj opis kodu do wygenerowania.');
-            return;
-        }
+    document
+        .getElementById("generate-code-button")
+        ?.addEventListener("click", async () => {
+            const description = document.getElementById(
+                "code-description-input"
+            ).value;
+            if (!description.trim()) {
+                showErrorModal(
+                    "Błąd walidacji",
+                    "Proszę podaj opis kodu do wygenerowania."
+                );
+                return;
+            }
 
-        const systemInstruction = `Jesteś ekspertem programistą. Generuj czysty, dobrze skomentowany kod zgodnie z najlepszymi praktykami.
+            const systemInstruction = `Jesteś ekspertem programistą. Generuj czysty, dobrze skomentowany kod zgodnie z najlepszymi praktykami.
         
         Zasady:
         1. Zawsze umieszczaj kod w bloku markdown z określonym językiem
@@ -1617,7 +1977,7 @@ async function initCodeGeneratorModal() {
         4. Podaj przykład użycia jeśli to możliwe
         5. Zasugeruj dodatkowe ulepszenia jeśli to pomocne`;
 
-        const enhancedPrompt = `Wygeneruj fragment kodu dla: "${description}".
+            const enhancedPrompt = `Wygeneruj fragment kodu dla: "${description}".
 
         Struktura odpowiedzi:
         - Krótkie wyjaśnienie co robi kod
@@ -1625,91 +1985,126 @@ async function initCodeGeneratorModal() {
         - Przykład użycia (jeśli dotyczy)
         - Opcjonalne sugestie rozszerzeń`;
 
-        runAi(enhancedPrompt, 'ai-model-select-7', 'loading-indicator-7', 'code-generator-output', systemInstruction);
-    });
+            runAi(
+                enhancedPrompt,
+                "ai-model-select-7",
+                "loading-indicator-7",
+                "code-generator-output",
+                systemInstruction
+            );
+        });
 
     // Dodaj obsługę Enter w polu input
-    document.getElementById('code-description-input')?.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' && !e.shiftKey) {
-            e.preventDefault();
-            document.getElementById('generate-code-button')?.click();
-        }
-    });
+    document
+        .getElementById("code-description-input")
+        ?.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                document.getElementById("generate-code-button")?.click();
+            }
+        });
 
     // Dodaj predefiniowane przykłady
     addCodeExamples();
 }
 
 function addCodeExamples() {
-    const examplesContainer = document.getElementById('code-examples-container');
+    const examplesContainer = document.getElementById(
+        "code-examples-container"
+    );
     if (!examplesContainer) return;
 
     const examples = [
         {
             title: "📋 Formularz kontaktowy",
-            description: "formularz kontaktowy HTML z walidacją JavaScript"
+            description: "formularz kontaktowy HTML z walidacją JavaScript",
         },
         {
             title: "🎮 Gra w kółko i krzyżyk",
-            description: "prosta gra w kółko i krzyżyk w JavaScript"
+            description: "prosta gra w kółko i krzyżyk w JavaScript",
         },
         {
             title: "📊 Wykres danych",
-            description: "wykres słupkowy z danymi sprzedaży w Python matplotlib"
+            description:
+                "wykres słupkowy z danymi sprzedaży w Python matplotlib",
         },
         {
             title: "🔒 System logowania",
-            description: "bezpieczny system logowania w PHP z haszowaniem"
+            description: "bezpieczny system logowania w PHP z haszowaniem",
         },
         {
             title: "🎨 Responsywne menu",
-            description: "responsywne menu nawigacyjne CSS z animacjami"
-        }
+            description: "responsywne menu nawigacyjne CSS z animacjami",
+        },
     ];
 
-    examples.forEach(example => {
-        const button = document.createElement('button');
-        button.className = 'example-button';
+    examples.forEach((example) => {
+        const button = document.createElement("button");
+        button.className = "example-button";
         button.innerHTML = `<span>${example.title}</span>`;
         button.onclick = () => {
-            document.getElementById('code-description-input').value = example.description;
+            document.getElementById("code-description-input").value =
+                example.description;
         };
         examplesContainer.appendChild(button);
     });
 }
 
 function initTranslatorModal() {
-    document.getElementById('translate-text-button')?.addEventListener('click', () => {
-        const text = document.getElementById('translation-input').value;
-        const lang = document.getElementById('target-language-select').value;
-        const prompt = `Przetłumacz poniższy tekst na język ${lang}. Zwróć tylko przetłumaczony tekst, bez żadnych dodatkowych wyjaśnień.\n\nTekst: "${text}"`;
-        runAi(prompt, 'ai-model-select-8', 'loading-indicator-8', 'translation-output-display');
-    });
+    document
+        .getElementById("translate-text-button")
+        ?.addEventListener("click", () => {
+            const text = document.getElementById("translation-input").value;
+            const lang = document.getElementById(
+                "target-language-select"
+            ).value;
+            const prompt = `Przetłumacz poniższy tekst na język ${lang}. Zwróć tylko przetłumaczony tekst, bez żadnych dodatkowych wyjaśnień.\n\nTekst: "${text}"`;
+            runAi(
+                prompt,
+                "ai-model-select-8",
+                "loading-indicator-8",
+                "translation-output-display"
+            );
+        });
 }
 
 function initTextAnalyzerModal() {
-    document.getElementById('analyze-text-button')?.addEventListener('click', () => {
-        const text = document.getElementById('text-analysis-input').value;
-        if (!text.trim()) {
-            showErrorModal('Błąd walidacji', 'Proszę wklej tekst do analizy.');
-            return;
-        }
+    document
+        .getElementById("analyze-text-button")
+        ?.addEventListener("click", () => {
+            const text = document.getElementById("text-analysis-input").value;
+            if (!text.trim()) {
+                showErrorModal(
+                    "Błąd walidacji",
+                    "Proszę wklej tekst do analizy."
+                );
+                return;
+            }
 
-        // Collect selected analysis options
-        const options = [];
-        if (document.getElementById('sentiment-analysis').checked) options.push('sentiment');
-        if (document.getElementById('tone-analysis').checked) options.push('tone');
-        if (document.getElementById('readability-analysis').checked) options.push('readability');
-        if (document.getElementById('keyword-analysis').checked) options.push('keywords');
-        if (document.getElementById('summary-analysis').checked) options.push('summary');
-        if (document.getElementById('improvement-suggestions').checked) options.push('improvements');
+            // Collect selected analysis options
+            const options = [];
+            if (document.getElementById("sentiment-analysis").checked)
+                options.push("sentiment");
+            if (document.getElementById("tone-analysis").checked)
+                options.push("tone");
+            if (document.getElementById("readability-analysis").checked)
+                options.push("readability");
+            if (document.getElementById("keyword-analysis").checked)
+                options.push("keywords");
+            if (document.getElementById("summary-analysis").checked)
+                options.push("summary");
+            if (document.getElementById("improvement-suggestions").checked)
+                options.push("improvements");
 
-        if (options.length === 0) {
-            showErrorModal('Błąd walidacji', 'Proszę wybierz przynajmniej jedną opcję analizy.');
-            return;
-        }
+            if (options.length === 0) {
+                showErrorModal(
+                    "Błąd walidacji",
+                    "Proszę wybierz przynajmniej jedną opcję analizy."
+                );
+                return;
+            }
 
-        const systemInstruction = `Jesteś ekspertem w analizie tekstu i językoznawstwie. Przeprowadź dokładną analizę podanego tekstu.
+            const systemInstruction = `Jesteś ekspertem w analizie tekstu i językoznawstwie. Przeprowadź dokładną analizę podanego tekstu.
         
         Formatuj odpowiedź w HTML używając:
         - <div class="analysis-section"> dla każdej sekcji analizy
@@ -1720,68 +2115,78 @@ function initTextAnalyzerModal() {
         
         Bądź konkretny i podaj praktyczne uwagi.`;
 
-        let analysisTypes = {
-            'sentiment': 'Analiza sentymentu (pozytywny/negatywny/neutralny)',
-            'tone': 'Analiza tonu (formalny/nieformalny, profesjonalny/casual, etc.)',
-            'readability': 'Analiza trudności czytania (łatwy/średni/trudny)',
-            'keywords': 'Identyfikacja słów kluczowych i tematów',
-            'summary': 'Krótkie streszczenie tekstu',
-            'improvements': 'Sugestie poprawek stylistycznych i językowych'
-        };
+            let analysisTypes = {
+                sentiment: "Analiza sentymentu (pozytywny/negatywny/neutralny)",
+                tone: "Analiza tonu (formalny/nieformalny, profesjonalny/casual, etc.)",
+                readability: "Analiza trudności czytania (łatwy/średni/trudny)",
+                keywords: "Identyfikacja słów kluczowych i tematów",
+                summary: "Krótkie streszczenie tekstu",
+                improvements: "Sugestie poprawek stylistycznych i językowych",
+            };
 
-        const selectedAnalyses = options.map(opt => analysisTypes[opt]).join(', ');
+            const selectedAnalyses = options
+                .map((opt) => analysisTypes[opt])
+                .join(", ");
 
-        const prompt = `Przeanalizuj poniższy tekst pod kątem: ${selectedAnalyses}
+            const prompt = `Przeanalizuj poniższy tekst pod kątem: ${selectedAnalyses}
 
 TEKST DO ANALIZY:
 "${text}"
 
 Przeprowadź szczegółową analizę i przedstaw wyniki w przejrzysty sposób z użyciem HTML i odpowiednich klas CSS.`;
 
-        runAi(prompt, 'ai-model-select-10', 'loading-indicator-10', 'text-analysis-output', systemInstruction);
-    });
+            runAi(
+                prompt,
+                "ai-model-select-10",
+                "loading-indicator-10",
+                "text-analysis-output",
+                systemInstruction
+            );
+        });
 
     // Add Enter key support for text area
-    document.getElementById('text-analysis-input')?.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' && e.ctrlKey) {
-            e.preventDefault();
-            document.getElementById('analyze-text-button')?.click();
-        }
-    });
+    document
+        .getElementById("text-analysis-input")
+        ?.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" && e.ctrlKey) {
+                e.preventDefault();
+                document.getElementById("analyze-text-button")?.click();
+            }
+        });
 
     // Add quick text examples
     addTextAnalysisExamples();
 }
 
 function addTextAnalysisExamples() {
-    const textInput = document.getElementById('text-analysis-input');
+    const textInput = document.getElementById("text-analysis-input");
     if (!textInput) return;
 
     const examples = [
         {
             title: "📰 Tekst formalny",
-            text: "Zgodnie z przedstawionymi danymi, wzrost gospodarczy w ostatnim kwartale wyniósł 3.2%, co stanowi znaczący postęp w porównaniu do analogicznego okresu roku poprzedniego. Eksperci przewidują dalszy wzrost w nadchodzących miesiącach."
+            text: "Zgodnie z przedstawionymi danymi, wzrost gospodarczy w ostatnim kwartale wyniósł 3.2%, co stanowi znaczący postęp w porównaniu do analogicznego okresu roku poprzedniego. Eksperci przewidują dalszy wzrost w nadchodzących miesiącach.",
         },
         {
             title: "💬 Tekst nieformalny",
-            text: "Hej! Sprawdziłem wczoraj ten nowy film i muszę przyznać, że totalnie mnie rozczarował. Spodziewałem się czegoś lepszego, ale w końcu nie da się wszystkim dogodziać, prawda? 😅"
+            text: "Hej! Sprawdziłem wczoraj ten nowy film i muszę przyznać, że totalnie mnie rozczarował. Spodziewałem się czegoś lepszego, ale w końcu nie da się wszystkim dogodziać, prawda? 😅",
         },
         {
             title: "🏢 Email biznesowy",
-            text: "Szanowni Państwo, w nawiązaniu do naszej wczorajszej rozmowy telefonicznej, przesyłam w załączeniu dokumenty niezbędne do finalizacji umowy. Prosimy o sprawdzenie i przesłanie podpisanych egzemplarzy do końca tygodnia."
-        }
+            text: "Szanowni Państwo, w nawiązaniu do naszej wczorajszej rozmowy telefonicznej, przesyłam w załączeniu dokumenty niezbędne do finalizacji umowy. Prosimy o sprawdzenie i przesłanie podpisanych egzemplarzy do końca tygodnia.",
+        },
     ];
 
     // Add example buttons after the textarea
-    const examplesDiv = document.createElement('div');
-    examplesDiv.className = 'text-examples';
-    examplesDiv.innerHTML = '<p><strong>Przykłady tekstów:</strong></p>';
+    const examplesDiv = document.createElement("div");
+    examplesDiv.className = "text-examples";
+    examplesDiv.innerHTML = "<p><strong>Przykłady tekstów:</strong></p>";
 
-    examples.forEach(example => {
-        const button = document.createElement('button');
-        button.className = 'example-button';
+    examples.forEach((example) => {
+        const button = document.createElement("button");
+        button.className = "example-button";
         button.textContent = example.title;
-        button.style.margin = '4px';
+        button.style.margin = "4px";
         button.onclick = () => {
             textInput.value = example.text;
         };
@@ -1792,25 +2197,32 @@ function addTextAnalysisExamples() {
 }
 
 function initCardIframeLinks() {
-    const contentContainer = document.querySelector('.content-container');
-    const modal = document.getElementById('myModal9');
-    const urlInput = document.getElementById('iframe-url-input');
-    const loadButton = document.getElementById('load-iframe-button');
-    const newTabButton = document.getElementById('open-in-new-tab-button');
+    const contentContainer = document.querySelector(".content-container");
+    const modal = document.getElementById("myModal9");
+    const urlInput = document.getElementById("iframe-url-input");
+    const loadButton = document.getElementById("load-iframe-button");
+    const newTabButton = document.getElementById("open-in-new-tab-button");
 
-    if (!contentContainer || !modal || !urlInput || !loadButton || !newTabButton) return;
+    if (
+        !contentContainer ||
+        !modal ||
+        !urlInput ||
+        !loadButton ||
+        !newTabButton
+    )
+        return;
 
-    contentContainer.addEventListener('click', (e) => {
+    contentContainer.addEventListener("click", (e) => {
         const target = e.target;
-        const link = target.closest('.card-iframe-link');
+        const link = target.closest(".card-iframe-link");
 
-        if (link && link.matches('a')) {
+        if (link && link.matches("a")) {
             e.preventDefault();
-            const url = link.getAttribute('href');
+            const url = link.getAttribute("href");
             if (url) {
                 urlInput.value = url;
                 newTabButton.href = url;
-                modal.classList.add('active');
+                modal.classList.add("active");
                 loadButton.click();
             }
         }
@@ -1818,79 +2230,95 @@ function initCardIframeLinks() {
 }
 
 function initIframeViewerModal() {
-    const modal = document.getElementById('myModal9');
-    const loadButton = document.getElementById('load-iframe-button');
-    const urlInput = document.getElementById('iframe-url-input');
-    const iframe = document.getElementById('content-iframe');
-    const loadingIndicator = document.getElementById('iframe-loading-indicator');
-    const newTabButton = document.getElementById('open-in-new-tab-button');
-    const refreshButton = document.getElementById('refresh-iframe-button');
-    const closeButton = document.getElementById('close-iframe-button');
+    const modal = document.getElementById("myModal9");
+    const loadButton = document.getElementById("load-iframe-button");
+    const urlInput = document.getElementById("iframe-url-input");
+    const iframe = document.getElementById("content-iframe");
+    const loadingIndicator = document.getElementById(
+        "iframe-loading-indicator"
+    );
+    const newTabButton = document.getElementById("open-in-new-tab-button");
+    const refreshButton = document.getElementById("refresh-iframe-button");
+    const closeButton = document.getElementById("close-iframe-button");
 
-    if (!modal || !loadButton || !urlInput || !iframe || !loadingIndicator || !newTabButton || !refreshButton || !closeButton) return;
+    if (
+        !modal ||
+        !loadButton ||
+        !urlInput ||
+        !iframe ||
+        !loadingIndicator ||
+        !newTabButton ||
+        !refreshButton ||
+        !closeButton
+    )
+        return;
 
     const loadUrl = () => {
         const url = urlInput.value.trim();
         if (url) {
             let fullUrl = url;
             if (!/^https?:\/\//i.test(url)) {
-                fullUrl = 'https://' + url;
+                fullUrl = "https://" + url;
                 urlInput.value = fullUrl;
             }
-            loadingIndicator.style.display = 'block';
-            iframe.style.visibility = 'hidden';
+            loadingIndicator.style.display = "block";
+            iframe.style.visibility = "hidden";
             iframe.src = fullUrl;
             newTabButton.href = fullUrl;
         } else {
-            showErrorModal('Błąd walidacji', 'Proszę wprowadzić URL.');
+            showErrorModal("Błąd walidacji", "Proszę wprowadzić URL.");
         }
     };
 
-    loadButton.addEventListener('click', loadUrl);
-    urlInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
+    loadButton.addEventListener("click", loadUrl);
+    urlInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
             e.preventDefault();
             loadUrl();
         }
     });
 
-    iframe.addEventListener('load', () => {
-        loadingIndicator.style.display = 'none';
-        iframe.style.visibility = 'visible';
+    iframe.addEventListener("load", () => {
+        loadingIndicator.style.display = "none";
+        iframe.style.visibility = "visible";
     });
 
-    iframe.addEventListener('error', () => {
-        loadingIndicator.style.display = 'none';
-        iframe.style.visibility = 'visible';
-        showErrorModal('Błąd ładowania', 'Nie udało się załadować podanego adresu URL.', 'Strona może blokować osadzanie (X-Frame-Options) lub wystąpił inny błąd.');
+    iframe.addEventListener("error", () => {
+        loadingIndicator.style.display = "none";
+        iframe.style.visibility = "visible";
+        showErrorModal(
+            "Błąd ładowania",
+            "Nie udało się załadować podanego adresu URL.",
+            "Strona może blokować osadzanie (X-Frame-Options) lub wystąpił inny błąd."
+        );
     });
 
-    refreshButton.addEventListener('click', () => {
-        if (iframe.src && iframe.src !== 'about:blank') {
+    refreshButton.addEventListener("click", () => {
+        if (iframe.src && iframe.src !== "about:blank") {
             iframe.contentWindow?.location.reload();
         }
     });
 
-    closeButton.addEventListener('click', () => {
-        modal.classList.remove('active');
-        iframe.src = 'about:blank';
-        urlInput.value = '';
-        newTabButton.href = '#';
+    closeButton.addEventListener("click", () => {
+        modal.classList.remove("active");
+        iframe.src = "about:blank";
+        urlInput.value = "";
+        newTabButton.href = "#";
     });
 }
 
 // Function to show error modal with auto-close functionality
-function showErrorModal(title, message, details = '') {
+function showErrorModal(title, message, details = "") {
     // Remove existing error modal if present
-    const existingModal = document.getElementById('error-modal');
+    const existingModal = document.getElementById("error-modal");
     if (existingModal) {
         existingModal.remove();
     }
 
     // Create error modal
-    const errorModal = document.createElement('div');
-    errorModal.id = 'error-modal';
-    errorModal.className = 'error-modal';
+    const errorModal = document.createElement("div");
+    errorModal.id = "error-modal";
+    errorModal.className = "error-modal";
 
     errorModal.innerHTML = `
         <div class="error-message">
@@ -1898,7 +2326,7 @@ function showErrorModal(title, message, details = '') {
             <i class="fas fa-exclamation-triangle"></i>
             <strong>${title}</strong>
             ${message}
-            ${details ? `<small>${details}</small>` : ''}
+            ${details ? `<small>${details}</small>` : ""}
             <div class="error-progress"></div>
         </div>
     `;
@@ -1907,7 +2335,7 @@ function showErrorModal(title, message, details = '') {
 
     // Show modal with animation
     setTimeout(() => {
-        errorModal.classList.add('show');
+        errorModal.classList.add("show");
     }, 10);
 
     // Auto close after 5 seconds
@@ -1916,7 +2344,7 @@ function showErrorModal(title, message, details = '') {
     }, 5000);
 
     // Close on click outside
-    errorModal.addEventListener('click', (e) => {
+    errorModal.addEventListener("click", (e) => {
         if (e.target === errorModal) {
             closeErrorModal();
         }
@@ -1924,24 +2352,21 @@ function showErrorModal(title, message, details = '') {
 
     // Close on Escape key
     const handleEscape = (e) => {
-        if (e.key === 'Escape') {
+        if (e.key === "Escape") {
             closeErrorModal();
-            document.removeEventListener('keydown', handleEscape);
+            document.removeEventListener("keydown", handleEscape);
         }
     };
-    document.addEventListener('keydown', handleEscape);
+    document.addEventListener("keydown", handleEscape);
 }
 
 // Function to close error modal
 function closeErrorModal() {
-    const errorModal = document.getElementById('error-modal');
+    const errorModal = document.getElementById("error-modal");
     if (errorModal) {
-        errorModal.classList.remove('show');
+        errorModal.classList.remove("show");
         setTimeout(() => {
             errorModal.remove();
         }, 300);
     }
 }
-
-
-
