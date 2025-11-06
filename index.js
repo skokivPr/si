@@ -2,311 +2,347 @@
 const carrdLinks = [
     // === KOLUMNA 1: EDYTORY I KOD ===
     // Row 1
-    {
-        id: "gemiapi",
-        title: "BOOK-V",
-        url: "https://boodev.carrd.co/",
-        icon: "fas fa-gem",
-        iconClass: "icon-gemiapi",
-        category: "code",
-        subcategory: "gemiapi",
-    },
-    {
-        id: "live-code",
-        title: "LIVE CODE",
-        url: "https://livecode.carrd.co/",
-        icon: "fas fa-code",
-        iconClass: "icon-livecode",
-        category: "editors",
-        subcategory: "code",
-    },
-    {
-        id: "md-code",
-        title: "MD CODE",
-        url: "https://mdcode.carrd.co/",
-        icon: "fas fa-file-code",
-        iconClass: "icon-md",
-        category: "code",
-        subcategory: "markdown",
-    },
+   {
+                id: "md-code",
+                title: "MD CODE",
+                url: "https://mdcode.carrd.co/",
+                icon: "fas fa-file-code",
+                iconClass: "icon-md",
+                category: "code",
+                subcategory: "markdown",
+            },
 
-    // Row 2
-    {
-        id: "edytor",
-        title: "EDYTOR",
-        url: "https://edytortxt.carrd.co/",
-        icon: "fas fa-edit",
-        iconClass: "icon-editor",
-        category: "editors",
-        subcategory: "text",
-    },
-    {
-        id: "edytor-alt",
-        title: "EDYTOR",
-        url: "https://edytor.carrd.co/",
-        icon: "fas fa-edit",
-        iconClass: "icon-editor",
-        category: "editors",
-        subcategory: "text",
-    },
-    {
-        id: "linkosi",
-        title: "LINKOSI",
-        url: "https://linkosi.carrd.co/",
-        icon: "fas fa-file-alt",
-        iconClass: "icon-text",
-        category: "editors",
-        subcategory: "links",
-    },
+            // Row 2
+            {
+                id: "edytor",
+                title: "EDYTOR",
+                url: "https://edytortxt.carrd.co/",
+                icon: "fas fa-edit",
+                iconClass: "icon-editor",
+                category: "editors",
+                subcategory: "text",
+            },
+            {
+                id: "edytor-alt",
+                title: "EDYTOR",
+                url: "https://edytor.carrd.co/",
+                icon: "fas fa-edit",
+                iconClass: "icon-editor",
+                category: "editors",
+                subcategory: "text",
+            },
+            {
+                id: "linkosi",
+                title: "LINKOSI",
+                url: "https://linkosi.carrd.co/",
+                icon: "fas fa-file-alt",
+                iconClass: "icon-text",
+                category: "editors",
+                subcategory: "links",
+            },
 
-    // Row 3
-    {
-        id: "playliveos",
-        title: "PLAYLIVEOS",
-        url: "https://playliveos.carrd.co/",
-        icon: "fas fa-file-alt",
-        iconClass: "icon-text",
-        category: "editors",
-        subcategory: "utility",
-    },
-    {
-        id: "text-pro",
-        title: "TEXT PRO",
-        url: "https://txtpro.carrd.co/",
-        icon: "fas fa-font",
-        iconClass: "icon-text",
-        category: "editors",
-        subcategory: "text",
-    },
-    {
-        id: "codenote",
-        title: "CODENOTE",
-        url: "https://codenote.carrd.co/",
-        icon: "fas fa-search",
-        iconClass: "icon-codenote",
-        category: "code",
-        subcategory: "notes",
-    },
+            // Row 3
+            {
+                id: "playliveos",
+                title: "PLAYLIVEOS",
+                url: "https://playliveos.carrd.co/",
+                icon: "fas fa-file-alt",
+                iconClass: "icon-text",
+                category: "editors",
+                subcategory: "utility",
+            },
+            {
+                id: "text-pro",
+                title: "TEXT PRO",
+                url: "https://txtpro.carrd.co/",
+                icon: "fas fa-font",
+                iconClass: "icon-text",
+                category: "editors",
+                subcategory: "text",
+            },
+            {
+                id: "tools-nue",
+                title: "TOOLS NUE",
+                url: "https://toolsnue.carrd.co/",
+                icon: "fas fa-wrench",
+                iconClass: "icon-tools",
+                category: "tools",
+                subcategory: "utility",
+            },
 
-    // === KOLUMNA 2: NARZĘDZIA I UTILITIES ===
-    // Row 1
-    {
-        id: "bookmarkoi",
-        title: "BOOKMARKOI",
-        url: "https://bookmarkoi.carrd.co/",
-        icon: "fas fa-bookmark",
-        iconClass: "icon-bookmark",
-        category: "tools",
-        subcategory: "links",
-    },
-    {
-        id: "tools-nue",
-        title: "TOOLS NUE",
-        url: "https://toolsnue.carrd.co/",
-        icon: "fas fa-wrench",
-        iconClass: "icon-tools",
-        category: "tools",
-        subcategory: "utility",
-    },
+            // Row 2
+            {
+                id: "modifier",
+                title: "MODIFIER",
+                url: "https://modifier.carrd.co/",
+                icon: "fas fa-sliders-h",
+                iconClass: "icon-modifier",
+                category: "tools",
+                subcategory: "utility",
+            },
+            {
+                id: "uniwersal-play",
+                title: "UNIWERSAL PLAY",
+                url: "https://uniwersalplay.carrd.co/",
+                icon: "fas fa-play",
+                iconClass: "icon-play",
+                category: "tools",
+                subcategory: "utility",
+            },
+            {
+                id: "logowanie",
+                title: "METEO",
+                url: "https://appmeteo.carrd.co/",
+                icon: "fas fa-sign-in-alt",
+                iconClass: "icon-login",
+                category: "tools",
+                subcategory: "utility",
+            },
+            {
+                id: "w5ui",
+                title: "W5UI",
+                url: "https://w5ui.carrd.co/",
+                icon: "fas fa-palette",
+                iconClass: "icon-w5ui",
+                category: "tools",
+                subcategory: "ui",
+            },
 
-    // Row 2
-    {
-        id: "modifier",
-        title: "MODIFIER",
-        url: "https://modifier.carrd.co/",
-        icon: "fas fa-sliders-h",
-        iconClass: "icon-modifier",
-        category: "tools",
-        subcategory: "utility",
-    },
-    {
-        id: "uniwersal-play",
-        title: "UNIWERSAL PLAY",
-        url: "https://uniwersalplay.carrd.co/",
-        icon: "fas fa-play",
-        iconClass: "icon-play",
-        category: "tools",
-        subcategory: "utility",
-    },
-    {
-        id: "os-tools",
-        title: "OS TOOLS",
-        url: "https://ostools.carrd.co/",
-        icon: "fas fa-desktop",
-        iconClass: "icon-os",
-        category: "tools",
-        subcategory: "utility",
-    },
+            // === KOLUMNA 3: DANE, OBRAZY I WEB ===
+            // Row 1
+            {
+                id: "arkusz",
+                title: "ARKUSZ",
+                url: "https://arkusz.carrd.co/",
+                icon: "fas fa-table",
+                iconClass: "icon-table",
+                category: "data",
+                subcategory: "spreadsheet",
+            },
+            {
+                id: "sites-w5",
+                title: "SITES W5",
+                url: "https://sitesw5.carrd.co/",
+                icon: "fas fa-globe",
+                iconClass: "icon-sites",
+                category: "tools",
+                subcategory: "web",
+            },
+            {
+                id: "project-dev",
+                title: "VS EDITOR",
+                url: "https://vseditor.carrd.co/",
+                icon: "fas fa-project-diagram",
+                iconClass: "icon-project",
+                category: "tools",
+                subcategory: "project",
+            },
 
-    // Row 3
-    {
-        id: "os-pro",
-        title: "OS PRO",
-        url: "https://ospro.carrd.co/",
-        icon: "fas fa-laptop",
-        iconClass: "icon-ospro",
-        category: "tools",
-        subcategory: "utility",
-    },
-    {
-        id: "logowanie",
-        title: "METEO",
-        url: "https://appmeteo.carrd.co/",
-        icon: "fas fa-sign-in-alt",
-        iconClass: "icon-login",
-        category: "tools",
-        subcategory: "utility",
-    },
-    {
-        id: "w5ui",
-        title: "W5UI",
-        url: "https://w5ui.carrd.co/",
-        icon: "fas fa-palette",
-        iconClass: "icon-w5ui",
-        category: "tools",
-        subcategory: "ui",
-    },
+            // === DODATKOWE NARZĘDZIA ===
+            // Row 4
+            {
+                id: "task-day",
+                title: "EXD 9",
+                url: "https://exd9.carrd.co/",
+                icon: "fas fa-tasks",
+                iconClass: "icon-task",
+                category: "tools",
+                subcategory: "tasks",
+            },
+            {
+                id: "tools-link",
+                title: "TOOLS LINK",
+                url: "https://toolslinki.carrd.co/",
+                icon: "fas fa-link",
+                iconClass: "icon-link",
+                category: "tools",
+                subcategory: "links",
+            },
 
-    // === KOLUMNA 3: DANE, OBRAZY I WEB ===
-    // Row 1
-    {
-        id: "arkusz",
-        title: "ARKUSZ",
-        url: "https://arkusz.carrd.co/",
-        icon: "fas fa-table",
-        iconClass: "icon-table",
-        category: "data",
-        subcategory: "spreadsheet",
-    },
+            // Row 5
+            {
+                id: "tools-link-alt",
+                title: "TOOLS LINK",
+                url: "https://toolslink.carrd.co/",
+                icon: "fas fa-link",
+                iconClass: "icon-toolslink",
+                category: "tools",
+                subcategory: "links",
+            },
+        ];
 
-    // Row 2
-    {
-        id: "md-table",
-        title: "MD TABLE",
-        url: "https://mdtable.carrd.co/",
-        icon: "fas fa-table",
-        iconClass: "icon-md",
-        category: "data",
-        subcategory: "markdown",
-    },
-    {
-        id: "image-tools",
-        title: "IMAGE TOOLS",
-        url: "https://imgpro.carrd.co/",
-        icon: "fas fa-image",
-        iconClass: "icon-image",
-        category: "tools",
-        subcategory: "image",
-    },
-
-    // Row 3
-    {
-        id: "web-tools",
-        title: "COLORBETA",
-        url: "https://colorbeta.com/",
-        icon: "fas fa-globe",
-        iconClass: "icon-web",
-        category: "tools",
-        subcategory: "web",
-    },
-    {
-        id: "sites-w5",
-        title: "SITES W5",
-        url: "https://sitesw5.carrd.co/",
-        icon: "fas fa-globe",
-        iconClass: "icon-sites",
-        category: "tools",
-        subcategory: "web",
-    },
-    {
-        id: "project-dev",
-        title: "VS EDITOR",
-        url: "https://vseditor.carrd.co/",
-        icon: "fas fa-project-diagram",
-        iconClass: "icon-project",
-        category: "tools",
-        subcategory: "project",
-    },
-
-    // === DODATKOWE NARZĘDZIA ===
-    // Row 4
-    {
-        id: "zoomframe",
-        title: "ZOOMFRAME",
-        url: "https://zoomframe.carrd.co/",
-        icon: "fas fa-mobile-alt",
-        iconClass: "icon-zoomframe",
-        category: "tools",
-        subcategory: "display",
-    },
-    {
-        id: "task-day",
-        title: "EXD 9",
-        url: "https://exd9.carrd.co/",
-        icon: "fas fa-tasks",
-        iconClass: "icon-task",
-        category: "tools",
-        subcategory: "tasks",
-    },
-    {
-        id: "tools-link",
-        title: "TOOLS LINK",
-        url: "https://toolslinki.carrd.co/",
-        icon: "fas fa-link",
-        iconClass: "icon-link",
-        category: "tools",
-        subcategory: "links",
-    },
-
-    // Row 5
-    {
-        id: "tools-link-alt",
-        title: "TOOLS LINK",
-        url: "https://toolslink.carrd.co/",
-        icon: "fas fa-link",
-        iconClass: "icon-toolslink",
-        category: "tools",
-        subcategory: "links",
-    },
-];
-
-const extraTools = [
-    {
-        id: "in-csv-dev",
-        title: "Csv-3.1.F",
-        url: "https://upcsv.carrd.co/",
-        icon: "fas fa-file-csv",
-        iconClass: "icon-csv",
-        category: "data",
-        subcategory: "csv",
-    },
-    {
-        id: "web-tools-dev",
-        title: "WEB TOOLS DEV",
-        url: "https://webtoolsdev.carrd.co/",
-        icon: "fas fa-globe",
-        iconClass: "icon-web",
-        category: "tools",
-        subcategory: "web",
-    },
-    {
-        id: "txt-pro",
-        title: "TXT PRO",
-        url: "https://txtpro.carrd.co",
-        icon: "fas fa-font",
-        iconClass: "icon-text",
-        category: "editors",
-        subcategory: "text",
-    },
-    {
-        id: "text-img",
-        title: "S-CSV-2.0.F",
-        url: "https://incsvdev.carrd.co/",
-        icon: "fas fa-table",
-        iconClass: "icon-table",
-        category: "tools",
-        subcategory: "table",
-    },
+        const extraTools = [
+            {
+                id: "in-csv-dev",
+                title: "Csv-3.1.F",
+                url: "https://upcsv.carrd.co/",
+                icon: "fas fa-file-csv",
+                iconClass: "icon-csv",
+                category: "data",
+                subcategory: "csv",
+            },
+            {
+                id: "web-tools-dev",
+                title: "WEB TOOLS DEV",
+                url: "https://webtoolsdev.carrd.co/",
+                icon: "fas fa-globe",
+                iconClass: "icon-web",
+                category: "tools",
+                subcategory: "web",
+            },
+            {
+                id: "txt-pro",
+                title: "TXT PRO",
+                url: "https://txtpro.carrd.co",
+                icon: "fas fa-font",
+                iconClass: "icon-text",
+                category: "editors",
+                subcategory: "text",
+            },
+            {
+                id: "text-img",
+                title: "S-CSV-2.0.F",
+                url: "https://incsvdev.carrd.co/",
+                icon: "fas fa-table",
+                iconClass: "icon-table",
+                category: "tools",
+                subcategory: "table",
+            },
+            {
+                id: "addlist",
+                title: "ADDLIST",
+                url: "https://addlist.carrd.co/",
+                icon: "fas fa-list-ol",
+                iconClass: "icon-addlist",
+                category: "tools",
+                subcategory: "utility"
+            },
+            {
+                id: "codeinspect",
+                title: "CODEINSPECT",
+                url: "https://codeinspect.carrd.co/",
+                icon: "fas fa-search-plus",
+                iconClass: "icon-codeinspect",
+                category: "code",
+                subcategory: "utility"
+            },
+            {
+                id: "csvy",
+                title: "CSVY",
+                url: "https://csvy.carrd.co/",
+                icon: "fas fa-file-csv",
+                iconClass: "icon-csv",
+                category: "data",
+                subcategory: "csv"
+            },
+            {
+                id: "czatdev",
+                title: "CZATDEV",
+                url: "https://czatdev.carrd.co/",
+                icon: "fas fa-comments",
+                iconClass: "icon-chat",
+                category: "tools",
+                subcategory: "chat"
+            },
+            {
+                id: "devospanel",
+                title: "DEVOSPANEL",
+                url: "https://devospanel.carrd.co/",
+                icon: "fas fa-columns",
+                iconClass: "icon-panel",
+                category: "tools",
+                subcategory: "ui"
+            },
+            {
+                id: "devpage5",
+                title: "DEVPAGE5",
+                url: "https://devpage5.carrd.co/",
+                icon: "fas fa-file-alt",
+                iconClass: "icon-page",
+                category: "tools",
+                subcategory: "web"
+            },
+            {
+                id: "glassplay",
+                title: "GLASSPLAY",
+                url: "https://glassplay.carrd.co/",
+                icon: "fas fa-play-circle",
+                iconClass: "icon-play",
+                category: "tools",
+                subcategory: "media"
+            },
+            {
+                id: "grafikdev",
+                title: "GRAFIKDEV",
+                url: "https://grafikdev.carrd.co/",
+                icon: "fas fa-chart-pie",
+                iconClass: "icon-graph",
+                category: "data",
+                subcategory: "charts"
+            },
+            {
+                id: "grafiksum",
+                title: "GRAFIKSUM",
+                url: "https://grafiksum.carrd.co/",
+                icon: "fas fa-chart-bar",
+                iconClass: "icon-graph",
+                category: "data",
+                subcategory: "charts"
+            },
+            {
+                id: "imgadd",
+                title: "IMGADD",
+                url: "https://imgadd.carrd.co/",
+                icon: "fas fa-image",
+                iconClass: "icon-image",
+                category: "tools",
+                subcategory: "image"
+            },
+            {
+                id: "notedev",
+                title: "NOTEDEV",
+                url: "https://notedev.carrd.co/",
+                icon: "fas fa-sticky-note",
+                iconClass: "icon-note",
+                category: "editors",
+                subcategory: "notes"
+            },
+            {
+                id: "panelsdev",
+                title: "PANELSDEV",
+                url: "https://panelsdev.carrd.co/",
+                icon: "fas fa-grip-horizontal",
+                iconClass: "icon-panel",
+                category: "tools",
+                subcategory: "ui"
+            },
+            {
+                id: "playyt",
+                title: "PLAYYT",
+                url: "https://playyt.carrd.co/",
+                icon: "fab fa-youtube",
+                iconClass: "icon-youtube",
+                category: "tools",
+                subcategory: "media"
+            },
+            {
+                id: "pracasuma",
+                title: "PRACASUMA",
+                url: "https://pracasuma.carrd.co/",
+                icon: "fas fa-calculator",
+                iconClass: "icon-calc",
+                category: "tools",
+                subcategory: "utility"
+            },
+            {
+                id: "w5e",
+                title: "W5E",
+                url: "https://w5e.carrd.co/",
+                icon: "fas fa-cubes",
+                iconClass: "icon-w5e",
+                category: "tools",
+                subcategory: "ui"
+            },
 ];
 
 const cardData = [...carrdLinks, ...extraTools];
@@ -1906,5 +1942,6 @@ function closeErrorModal() {
         }, 300);
     }
 }
+
 
 
