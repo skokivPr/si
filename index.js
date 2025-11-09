@@ -343,6 +343,15 @@ const extraTools = [
         category: "tools",
         subcategory: "ui",
     },
+    {
+        id: "previewgib",
+        title: "previewgib",
+        url: "https://previewgib.carrd.co/",
+        icon: "fas fa-cubes",
+        iconClass: "icon-w5e",
+        category: "tools",
+        subcategory: "ui",
+    },
 ];
 
 const cardData = [...carrdLinks, ...extraTools];
@@ -2370,3 +2379,4 @@ function closeErrorModal() {
         }, 300);
     }
 }
+
