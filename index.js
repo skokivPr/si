@@ -53,8 +53,8 @@ const carrdLinks = [
     },
     {
         id: "text-pro",
-        title: "TEXT PRO",
-        url: "https://txtpro.carrd.co/",
+        title: "REACT LIVE",
+        url: "https://reactlive.carrd.co/",
         icon: "fas fa-font",
         iconClass: "icon-text",
         category: "editors",
@@ -264,7 +264,7 @@ const extraTools = [
     },
     {
         id: "glassplay",
-        title: "GLASSPLAY",
+        title: "PLAY-PRO",
         url: "https://glassplay.carrd.co/",
         icon: "fas fa-play-circle",
         iconClass: "icon-play",
@@ -2379,4 +2379,5 @@ function closeErrorModal() {
         }, 300);
     }
 }
+
 
